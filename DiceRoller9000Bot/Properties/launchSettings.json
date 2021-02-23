@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DiceRoller9000Bot": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

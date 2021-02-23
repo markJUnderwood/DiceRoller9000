@@ -1,0 +1,2469 @@
+﻿[
+	{
+		"Name": "Academics",
+		"Type": "Skill",
+		"Description": "Academics represents the time a character spent studying the humanities. Characters with Academics generally have some knowledge of law and politics, allowing them to understand and even manipulate legal and political systems, as well as most bureaucracies.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Academics 1:** A basic grasp of fields like literature, art, and law. The character can navigate a library and probably turn up some useful information after a day or two.",
+			"**Academics 3:** Well-versed in political and literary writings, can easily quote famous thinkers. Focused research will usually unearth relevant information within a few hours.",
+			"**Academics 5:** An almost encyclopedic knowledge on just about every subject. The character can rattle off relevant information for any situation, and with time in the archives can uncover secrets that have eluded researchers for years"
+		],
+		"Note": "Academics + Intellect also represents the total number of languages a character can maintain fluency in without constant effort. This isn't the number of languages they speak, only the number they can learn. They still need to study a language to pick it up.",
+		"Page": 58
+	},
+	{
+		"Name": "Athletics",
+		"Type": "Skill",
+		"Description": "Athletics represents the technique needed to properly leverage the power of the human body. Usually an Athletic character has spent some time in physical training, whether they be sports stars, fire fighters, or just fitness enthusiasts.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Athletics 1:** An irregular exerciser with moderate fitness. The character can run a mile without getting winded, and can climb or swim in ideal conditions without trouble. ",
+			"**Athletics 3:** A trainer with excellent physical fitness. The character regularly runs miles each day without injury and probably plays a star role in several sports",
+			"**Athletics 5:** One of the world's greatest athletes, qualified for a major sports team or the Olympic games. The character can expect to excel at just about any physical task."
+		],
+		"Note": "Athletics + Might determines what characters can lift or break with an action. Breaking something in this way is likely a complex action as the character tears the object apart, but lifting is a simple action",
+		"Page": 58,
+		"Tables": [
+			{
+				"Headers": [
+					"Athletics + Might Successes",
+					"Sample Feat"
+				],
+				"Rows": [
+					{
+						"Columns": [
+							"3",
+							"Lift two microwaves, rip tough plastic"
+						]
+					},
+					{
+						"Columns": [
+							"4",
+							"Tote a hay bale on one shoulder, kick open a deadbolted door"
+						]
+					},
+					{
+						"Columns": [
+							"5",
+							"Lift a refrigerator, bend an iron bar"
+						]
+					},
+					{
+						"Columns": [
+							"6",
+							"Punch through a reinforced wooden door"
+						]
+					},
+					{
+						"Columns": [
+							"8",
+							"Kick a reinforced wooden door to pieces, rip rebar out of the wall"
+						]
+					},
+					{
+						"Columns": [
+							"10",
+							"Lift an average car and use it as a thrown weapon, kick nearly any door open"
+						]
+					},
+					{
+						"Columns": [
+							"12",
+							"Knock semis over with a well-placed shove, tear down a temple's load-bearing pillars"
+						]
+					},
+					{
+						"Columns": [
+							"16+",
+							"Storyguide's extrapolation"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"Name": "Close Combat",
+		"Type": "Skill",
+		"Description": "A character's skill in Close Combat can determine how well they are able to fight in close quarters with a foe. Usually this means a background involving combat training or experience, whether at a wushu guan or out on the mean streets. Close Combat applies when wielding melee weapons or bare fists, even when grappling and subduing an opponent.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Close Combat 1:** Capable of handling themselves in a fight, holding their own with other amateur brawlers with minimal injury.",
+			"**Close Combat 3:** Very talented at using both fists and weaponry effectively. The character can easily take down multiple untrained opponents or skilled single combatants.",
+			"**Close Combat 5:** An efficient and terrifying force in combat. The character knows how to close distance and effortlessly dismantle the defenses of even battle-hardened warriors."
+		],
+		"Note": "",
+		"Page": 59
+	},
+	{
+		"Name": "Culure",
+		"Type": "Skill",
+		"Description": "A character's Culture Skill represents their exposure to different societies and cultural ideas. A character with this background has spent time appreciating art, language, and religion from around the world, and can easily identify faux pas and social hierarchies for groups ranging from foreign companies to insular internet forums",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Culture 1:** A basic understanding of cultural expression around the world. The character is less likely to make a faux pas in groups he has read about or spent time in",
+			"**Culture 3:** A comfortable grasp of the nuances of almost every mortal culture. The character can steer their friends away from gauche behavior even after only a short exposure to a group.",
+			"**Culture 5:** A cultural prodigy with perfect insight into the artwork and mores of worldwide cultures. The character can pass himself off as a native mere moments after entering a new society."
+		],
+		"Note": "",
+		"Page": 58
+	},
+	{
+		"Name": "Empathy",
+		"Type": "Skill",
+		"Description": "Empathy allows characters to work out the motivations and emotions of those they interact with, and manipulate those feelings to their advantage. This Skill is just as useful for those who want to make friends as it is for thosewho want to profile serial killers.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Empathy 1:** Sensitive to the emotional cues of others. The character can usually tell when someone is hiding something, if they are paying attention.",
+			"**Empathy 3:** The character can easily spot lies and read between the lines, and is talented at knowing just what to say and when.",
+			"**Empathy 5:** A human lie detector who can assemble a full psychological profile for an individual based on the merest of clues"
+		],
+		"Note": "",
+		"Page": 59
+	},
+	{
+		"Name": "Firearms",
+		"Type": "Skill",
+		"Description": "The Firearms skill represents a character's training and experience with modern projectile weapons like guns (bows and javelins fall under Athletics). It also represents their ability to repair and maintain such weapons.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Firearms 1:** Can make simpler short range shots, and maintain most weapons.",
+			"**Firearms 3:** A trained marksman who can hit their target even in rain or low light. They are comfortable drawing quickly, and firing in close quarters. With the right equipment and circumstances they can make long-distance shots.",
+			"**Firearms 5:** An expert shooter with experience in both firefights and sniping. The character can repair broken guns with the appropriate parts and tools, and modify weapons to better suit their needs."
+		],
+		"Note": "",
+		"Page": 59
+	},
+	{
+		"Name": "Integrity",
+		"Type": "Skill",
+		"Description": "Integrity reflects a character's emotional fortitude against outside influence or to resist Leadership or Persuasion. A character uses Integrity to resist emotional swaying and to hide her own emotions and intentions from others. Integrity can be represented by some training techniques in military, special operations, or performing arts, or it could be an innate Skill of certain characters.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Integrity 1:** Simply stubborn, or the character is just not easily swayed.",
+			"**Integrity 3:** A dependable person, either with formal training in resisting influence or a keen and cunning mind capable of determining what the influencer's true aim is",
+			"**Integrity 5:** An expert with long experience and formal training in resisting mind-control or torture techniques, unable to be broken or swayed in a direction they don't ultimately wish to go in."
+		],
+		"Note": "",
+		"Page": 59
+	},
+	{
+		"Name": "Leadership",
+		"Type": "Skill",
+		"Description": "Leadership is a knowledge of the techniques needed to effectively lead and coordinate groups. Characters with this skill can look at the bigger picture in order to make sure every member of the team is contributing in the most effective way possible. These characters radiate a confidence that lets them take control of a situation.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Leadership 1:** The character has spent some time managing others, and can get a group of individuals to work and think as a team with time and effort.",
+			"**Leadership 3:** The character has spent extensive time leading others, and people are inclined to set aside personal interest for the greater good under his command.",
+			"**Leadership 5:** The character can lead armies into battle with genius strategies, and expect total loyalty. He can be certain that his orders will always be understood, and carried out to the letter if possible."
+		],
+		"Note": "",
+		"Page": 59
+	},
+	{
+		"Name": "Medicine",
+		"Type": "Skill",
+		"Description": "Skill in Medicine represents a character's knowledge about the operation of the bodies of living things. Their experience allows them to diagnose and treat any living creatures, so long as they bear some resemblance to creatures she has encountered before",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Medicine 1:** Basic first aid. The character can judge at a glance if a creature is in physical distress.",
+			"**Medicine 3:** The character can treat even serious injuries, and stabilize what might otherwise be a fatal wound. With the right facilities, they can diagnose diseases and administer ongoing care",
+			"**Medicine 5:** A master surgeon and physician, able to save lives regularly with quick and accurate application of aid. The character can perform transplants and lifesaving excisions even in extremely challenging conditions."
+		],
+		"Note": "",
+		"Page": 60
+	},
+	{
+		"Name": "Occult",
+		"Type": "Skill",
+		"Description": "The Occult Skill represents knowledge of the supernatural elements of The World and beyond, such as cryptozoology, the secret histories of various pantheons, or mystical rituals (functional and otherwise).",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Occult 1:** A passing interest in the mysteries of The World. The character can identify simple magical rituals and common paranormal phenomena.",
+			"**Occult 3:** The character can conduct more complex ceremonies and identify a wide range of magical creatures. They can identify many types of cults, and trace them back to their divine (or Titanic) patrons.",
+			"**Occult 5:** The character instantly recognizes all but the most obscure cults, rites, and spells. He easily converses with the souls of the dead, and can navigate the complex rules of Terra Incognitae."
+		],
+		"Note": "",
+		"Page": 60
+	},
+	{
+		"Name": "Persuasion",
+		"Type": "Skill",
+		"Description": "The Persuasion skill represents a character's talent at bringing others around to their way of thinking. Whether seducing or debating, whether she needs to change the way someone sees the world or force them into a compromise, the Scion is using Persuasion",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Persuasion 1:** The character can usually talk their way out of minor trouble, and convince others of their honesty if the truth's on their side",
+			"**Persuasion 3:** Silver-tongued. The character can draw sympathy from officers of the law, talk their way out of speeding tickets, and never fails to get a date on a Friday night.",
+			"**Persuasion 5:** Charisma just one step short of hypnosis. The character can convince even cynics to believe in them, and regularly receives preferential treatment. It's hard to find someone they can't win over."
+		],
+		"Note": "",
+		"Page": 60
+	},
+	{
+		"Name": "Pilot",
+		"Type": "Skill",
+		"Description": "Characters use Pilot to control any method of transportation, such as a car, bus, boat, motorcycle, horse, plane, giant bird, or anything else he may have cause to ride on or in. It also measures his ability to acclimate to unfamiliar conveyances and make repairs on them.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Pilot 1:** The character can control most vehicles under normal circumstances. They can even ride a mount without fear of falling off.",
+			"**Pilot 3:** A deeper understanding of the forces involved in operating a vehicle. The character can do some trick driving, operate under difficult conditions, and pilot a complex vehicle like an airplane or submarine.",
+			"**Pilot 5:** A stunt driver's dream. The character can perform precision driving maneuvers and jumps, fly a plane through a storm, and navigate by sonar underwater."
+		],
+		"Note": "",
+		"Page": 60
+	},
+	{
+		"Name": "Science",
+		"Type": "Skill",
+		"Description": "The Science Skill represents a character's exposure to the philosophical underpinnings of the scientific method. Though they likely have some knowledge of modern scientific theories, this doesn't necessarily mean that they have a PhD. They have just learned to look at the world in an orderly and quantifiable way. For this reason, it is entirely compatible with Occult",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Science 1:** The character can understand physical evidence, and separate useful data from background noise.",
+			"**Science 3:** The character can extrapolate from available data, incorporating all evidence into a comprehensive theory. They can also make simple compounds with access to the right materials and tools.",
+			"**Science 5:** The character can create and test hypotheses almost instantly, running thought experiments to deduce the most likely explanation. They can create advanced chemical reactions with household products, and repair machines on basic physical principles."
+		],
+		"Note": "",
+		"Page": 60
+	},
+	{
+		"Name": "Subterfuge",
+		"Type": "Skill",
+		"Description": "Subterfuge represents the character's ability to deceive others, hide, and create disguises. It also helps them commit criminal acts such as forgeries, sleight of hand, and lockpicking. This can represent training with an organization of criminals or even spies.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Subterfuge 1:** Basic lies come easily to the character, and cheap locks do not present much of a challenge. They know enough to stay off the radar of local authorities.",
+			"**Subterfuge 3:** A master thief, extremely adept at criminal activities. They can spin complex lies and break into most safes. The constabulary is likely aware of and frustrated by their exploits.",
+			"**Subterfuge 5:** A legend in the underworld, the character can impersonate someone's own mother and clean out a bank vault without anyone even knowing they were there."
+		],
+		"Note": "",
+		"Page": 60
+	},
+	{
+		"Name": "Survival",
+		"Type": "Skill",
+		"Description": "The ability to understand and overcome the challenges of inhospitable environments is represented by the Survival skill. This often means finding food and shelter in the wild, crafting basic tools from things found in nature, navigating unknown territory, and taming local wildlife.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Survival 1:** The character can get the lay of the land in an unfamiliar place and she can expect to comfortably survive for several days, finding her food and water with some effort and building a basic shelter.",
+			"**Survival 3:** An affinity for the outdoors. The character can last months in the wilderness, making a sturdy shelter and tools, and comfortably finding food in the right places.",
+			"**Survival 5:** An expert at tracking and foraging. Even the most extreme elements do not dissuade her, and she can easily survive in blistering heat or a fierce blizzard"
+		],
+		"Note": "",
+		"Page": 61
+	},
+	{
+		"Name": "Technology",
+		"Type": "Skill",
+		"Description": "Technology represents the character's comfort with the software and hardware that make up modern devices, whether they're operating them, repairing them, or misusing them. Computers are the most obvious of these machines, and perhaps the most dangerous.",
+		"Source": "Scion Origin",
+		"Examples": [
+			"**Technology 1:** The character can expect most modern devices to do what they want. They can use computers, and resolve common errors.",
+			"**Technology 3:** An excellent grasp of programming languages and electrical engineering. When anyone needs something fixed, they turn to the character.",
+			"**Technology 5:** A master hacker, who's broken into government databases or built her own complex servers. They seldom buy any devices, certain they could assemble something better on their own."
+		],
+		"Note": "",
+		"Page": 61
+	},
+	{
+		"Name": "Rolls",
+		"Type": "Rule",
+		"Description": "Once the player has assembled his dice pool, he rolls the dice. He wants each die to land at or above his **target number**. His target number depends on his character type, but by default it is 8. Each die that meets his target number is a success. A **success** is the basic currency of the Storypath system. Players use successes to complete challenges, overcome Complications, and do cool Stunts. \n\nIf a player rolls a 10, that die gives one success and is rolled again. This is called 10-again, and it continues until no dice show a 10. Some special benefits provide 9-again or 8-again, where those die results or higher are also rolled again. \n\nOccasionally in the text you'll see an abbreviation like “2s.” This translates to “2 successes.”",
+		"Source": "Scion Origin",
+		"Aliases": [
+			"Rolling",
+			"Dice",
+			"Explosions"
+		],
+		"Page": 63
+	},
+	{
+		"Name": "Difficulty",
+		"Type": "Rule",
+		"Description": "Every challenge has a level of **Difficulty**, which is the number of successes a player must spend to overcome any obstacles and succeed. Every challenge requires at least 1 success to complete, so the minimum Difficulty is 1. If a character wants to vault a Difficulty 2 gap between buildings, she must roll at least two successes to buy off the Difficulty and succeed. If the character doesn't have enough successes to meet the Difficulty, they fail the challenge and receive a Consolation to keep the story moving. Situations where it's impossible to succeed do not have a level of Difficulty — characters just don't roll.\n\nThe Storyguide normally sets the Difficulty based on the scope of the challenge. This is called **static Difficulty**. In other cases, the Difficulty of the challenge is caused by other characters. This is called **opposed Difficulty**, and it is generated by an opposing character's own dice roll.\n\nIn direct clashes, like a public debate or a brutal struggle, one character is the “defender.” Their dice roll is used to set the opposed Difficulty for the “attacker.” In the case of parallel efforts such as a foot race, or when it's not clear who the “defender” is, the competing characters compare their total successes for that roll. The smaller number is used to set the level of Difficulty.",
+		"Source": "Scion Origin",
+		"Aliases": [
+			"rolling",
+			"static difficulty",
+			"opposed difficulty",
+			"difficulty"
+		],
+		"Page": 63,
+		"Tables": [
+			{
+				"Headers": [
+					"Level of Difficulty",
+					"Challenge Example"
+				],
+				"Rows": [
+					{
+						"Columns": [
+							"1",
+							"Minor: You escaped a pursuer."
+						]
+					},
+					{
+						"Columns": [
+							"2",
+							"Notable: You evaded coordinated pursuit from trained police officers."
+						]
+					},
+					{
+						"Columns": [
+							"3",
+							"Significant: You outran a police car on foot."
+						]
+					},
+					{
+						"Columns": [
+							"4",
+							"Major: You got away from a charge of the Wyld Hunt."
+						]
+					},
+					{
+						"Columns": [
+							"5+",
+							"Extreme: You slipped from the clutches of a vengeful Fury"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"Name": "Mixed Actions",
+		"Type": "Rule",
+		"Description": "Each task in a mixed action has its own level of Difficulty, which a player must spend successes to meet. If the total number of successes is too low to meet both levels of Difficulty, they can choose to fail at one of their tasks in order to succeed at the other.",
+		"Source": "Scion Origin",
+		"Examples": [],
+		"Page": 63,
+		"Aliases": [
+			"difficulty"
+		]
+	},
+	{
+		"Name": "Complications",
+		"Type": "Rule",
+		"Page": 63,
+		"Source": "Scion Origin",
+		"Description": "Some challenges come with a **Complication**, an unforeseen consequence to success. Complications can be avoided by spending successes, in the same way as Difficulty, but they do not prevent a character from succeeding. They are a “yes, but…,” a drawback that might inflict injuries, cause new problems, or increase the Difficulty for future challenges. For example, if a character climbs over a fence, the barbed wire across the top would be a Complication. She can get over the fence; the question is whether she can spend a moment — and two successes — tossing her jacket over the wire to keep her hands from being sliced open.\n\nJust like Difficulty, each Complication has its own level of severity. Players can bypass a Complication by spending enough successes to meet its level. Complications only affect successful challenges, though characters who fail may face their own consequences. If that fence-climbing character fails to meet the Difficulty of the challenge, she won't cut her hands, but she might be caught by whoever's chasing her. A Complication is a good way to make a challenge more daunting without actually stopping a character in their tracks.\n\nOccasionally in the text, you may see an abbreviation like “1c.” This is short for “a level-1 Complication.”",
+		"Tables": [
+			{
+				"Headers": [
+					"Level of Complication",
+					"You Talk you way into a favor from Ogma, but..."
+				],
+				"Rows": [
+					{
+						"Columns": [
+							"1",
+							"Minor: You upset him. He won't remember you fondly."
+						]
+					},
+					{
+						"Columns": [
+							"2",
+							"Notable: He's worked out what you're really after. At this level, Complications can result in Conditions, including Injury Conditions."
+						]
+					},
+					{
+						"Columns": [
+							"3",
+							"Significant: You got the bad end of the bargain, and owe him one."
+						]
+					},
+					{
+						"Columns": [
+							"4",
+							"Major: An invisible spy overheard your secret discussion"
+						]
+					},
+					{
+						"Columns": [
+							"5",
+							"Extreme: He's seriously pissed off with you. Watch out"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"Name":"Enhancements",
+		"Type":"Rule",
+		"Page":"64",
+		"Source":"Scion Origin",
+		"Description":"An **Enhancement** is something that makes a challenge easier, such as a useful piece of equipment, or favorable circumstances that a character can take advantage of. If a player rolls *at least one success*, they receive bonus successes from any Enhancements relevant to that challenge. If an Enhancement does not specifically apply to the task at hand, or if they don't roll at least one success, the player can't use it. None but the most exceptional Enhancements offer more than three additional successes.\n\nSimilar to Complications, you may occasionally see an abbreviation like “1e.” This is short for “1 level of Enhancement” or “+1 Enhancement.”",
+		"Examples":[
+			"Eileen's grabbed a gun loaded with runic rounds that guide her bullets. This is an Enhancement to her accuracy, but it won't help her vault a barricade. In a mixed action, the character can benefit from Enhancements relevant to either task. However, they can still only use those extra successes for accomplishing tasks appropriate to the Enhancement."
+		],
+		"Aliases":["enhancement"],
+		"Tables":[
+			{
+				"Headers":["Level of Enhancement","Circumstance Example","Equipment Example"],
+				"Rows":[
+					{"Columns":["1","Minor: You have the high ground.","A finely balanced rapier."]},
+					{"Columns":["2","Notable: You've studied your enemy's style.","An enchanted macuahuitl."]},
+					{"Columns":["3","Significant: Your target doesn't know you're there.","A genuine Masamune blade."]},
+					{"Columns":["4","Major: Your enemy labors under multiple divine curses","A dagger made from the head of Gungir."]},
+					{"Columns":["5","Extreme: A god of war guides your blade.","Excalibur."]}
+				]
+			}
+		]
+	},
+	{
+		"Name":"Enhancement Drawbacks",
+		"Type":"Rule",
+		"Page":"65",
+		"Source":"Scion Origin",
+		"Description":"Sometimes using an Enhancement causes problems, even as it helps. These are the **drawbacks**. For example, getting drunk might ingratiate you to a party of satyrs, but it'll lessen your fine motor control. When an Enhancement has a drawback, the Storyguide can choose to play it out in one of three ways.",
+		"Aliases":[
+			"enhancement"
+		],
+		"Examples": [
+			"The drawback adds a Complication (p.63)",
+			"The drawback increases the Difficulty (p.63) of another action.",
+			"The drawback gives antagonists a free Enhancement to use against you."
+		]
+	},
+	{
+		"Name":"Teamwork",
+		"Type":"Rule",
+		"Page":"65",
+		"Source":"Scion Origin",
+		"Description":"When one character helps another in a challenge, the assisting character assembles and rolls their own dice pool, and provides an Enhancement equal to the successes they rolled, up to a total of 3. The two dice pools do not need to use the same Skill or Attribute, so long as the teamwork makes sense. For example, a character could use Athletics + Might to perform the heavy lifting of massive server racks for an engineer, who works with Technology + Intellect.",
+		"Aliases":["team work","enhancement"]
+	},
+	{
+		"Name":"Scale",
+		"Type":"Rule",
+		"Page":"65",
+		"Source":"Scion Origin",
+		"Description":"**Scale** represents a sizeable gap in raw power or scope between two things. Many supernatural beings operate on a level entirely above humanity, while exceptional equipment can give an incredible edge. Scale has two components: **narrative** and **dramatic**\n\n> **Narrative Scale** describes the multiplier you should apply to successes or static traits. When comparing Scale to minor characters and story elements, such as scenery, bystanders, and minor combatants, feel free to handwave the Scale multiplier as a rough narrative benchmark of what happens, simply narrating the characters creating massive havoc: All successes from the dice pool are multiplied if a roll is called for, or you can assume one success for every three dice and then multiply that result.\n\n> **Dramatic Scale** is how much the Scale actually affects characters and other elements that are central to the story. Dramatic Scale provides an Enhancement to actions against narratively important characters or objects. For static values, apply half the value of the Dramatic Enhancement.\n\nWhen applying Scale to two opposing forces or individuals, compare each character's Scale and then apply the benefits of the difference to whomever has the higher Scale. For example, a car racing after a human receives Enhancement 4 due to its roaring speed (Scale 2), but when it chases a cowardly centaur (Scale 1), the difference in Scale is only one, so it only receives 2 bonus successes.\n\nScale comes into play for dramatically important challenges only; it's the job of the players and Storyguide to bridge the divide between the narrative and dramatic effects of Scale.\n\nA sprinter racing a sports car, or a power lifter arm-wrestling an oni, face a massive difference in Scale which makes victory a tricky prospect. Smaller differences, such as a human arm-wrestling a shorter human, don't use Scale. Just like all Enhancements, different kinds of Scale only affect the challenges to which they're relevant. An astra weapon's destructive Scale is useful for sundering a bank's vault, but not for impersonating its guard.",
+		"Aliases":[],
+		"Examples": [
+			"**Size:** Huge differences in size provide a Scale Enhancement, which applies to tasks that make use of a larger creature's weight and height, like crushing, lifting, and intimidation.",
+			"**Force:** A Scale Enhancement for destructive force applies to efforts to cause damage, like a Scale 2 grenade. It can be opposed by defensive Scale Enhancements, such as tank armor or a divine aegis.",
+			"**Speed:** A disparity in speed offers a Scale Enhancement, which the faster party can use for challenges like races, chases, journeys, and changing range bands (p. 119).",
+			"**Leadership:** Outsized sway over others, such as the Scale 3 influence wielded by a president or an incredibly handsome fae, is represented by an Enhancement that aids attempts to change minds and encourage certain actions."
+		],
+		"Note":"Normal humans are assumed to be Scale 0 in every area; they are the baseline. Equipment or circumstances can justify Scale as well: A main battle tank can be Incredible, adding 6 successes to an already-considerable dice pool of 10 or more.",
+		"Tables":[
+			{
+				"Headers":["Scale Rank","Narrative","Dramatic","Example"],
+				"Rows":[
+					{ "Columns":["0: Standard","n/a","+0","(0)"] },
+					{ "Columns":["1: Elite","x2","+2","A wuxia martial arts master with wirework, an anti-tank rifle"] },
+					{ "Columns":["2: Supernatural","x5","+4","A giant that hurls cars with ease"] },
+					{ "Columns":["3: Incredible","x10","+6","Outrunning a car on the highway, a main battle tank"] },
+					{ "Columns":["4: Godlike","x100","+8","Smashing said tank in half with a single blow"] },
+					{ "Columns":["5: Supernal","x200","+12","Lifting a full aircraft carrier clear of the water"] },
+					{ "Columns":["6: Titanic","xLots","+16","The World's mightiest forces, weapons of mass destruction"] }
+				]
+			},
+			{
+				"Headers":["Scale Level","Size Example","Speed Example","Leadership Example"],
+				"Rows":[
+					{ "Columns":["0","Normal: Person-sized","Normal: A decent sprinter","Normal: Just some guy,y'know?"] },
+					{ "Columns":["1","Large: Elephant, Bus, Troll","Quick: Horse, Centaur","Persuasive: Your supervisor at work"] },
+					{ "Columns":["2","Huge: Giant Squid, Roc","Fast: Sedan, Cheetah, Atalanta","Authoritative: The boss of the company"] },
+					{ "Columns":["3","Giant: Blue Whale, Behemoth","Turbo: Sports Car, Kamaitachi","Regal: The leader of a nation"] },
+					{ "Columns":["4","Landmark: Statue of Liberty,Giant Buddha","Blinding: Airliner, Garuda","Divine: A deity within a religion"] },
+					{ "Columns":["5","Overwhelming: Typhon, Skyscraper","Supersonic: Fighter Jet, Solar Chariot","Divine King: The deity of a purview like War"] },
+					{ "Columns":["6","Geography: Manifest Primordial, Small mountain","Supreme: One of the chief Gods of the pantheon","Meteoric: Scramjet, Railgun, Dandu Morana"] }
+				]
+			}
+		]
+	},
+	{
+		"Name":"Trivial Targets",
+		"Type":"Rule",
+		"Page":"65",
+		"Source":"Scion Origin",
+		"Description":"Scale represents the kind of tremendous gulfs bridged by heroic luck and derring-do. Those lacking such things tend to fare worse. The narrative effects of Scale can be applied to trivial targets. Scale differences of more than three should usually result in automatic failure (or success). In the case of targets such as background scenery or nameless mooks, a difference of more than one level is enough to dismiss them without a roll. Storypath refers to this difference as “trivial targets,” who suffer more realistic effects from a difference in Scale. Rolls are only used for challenges, not effortless or outright impossible tasks: When the animated Colossus of Rhodes stomps down on a group of Greek protesters, there's little room for doubt about what happens.",
+		"Aliases":["trival"],
+		"Examples": [
+			"As Sigrun wrestles the bunyip, they crash into the middle of a barbeque party. Throwing the hero clear, the beast snaps at a random bystander armed with nothing but an overdone burger. The roll for the beast automatically succeeds; normally, it would enjoy a +4 Enhancement. Needless to say, things end messily and without a roll for the poor, lesser carnivore."
+		],
+		"Note":"Player characters are never treated as trivial targets,even when the difference in Scale is extreme.",
+	},
+	{
+		"Name":"Shockwave",
+		"Type":"Rule",
+		"Page":"66",
+		"Source":"Scion Origin",
+		"Description":"Some kinds of Scale or particular types of hits generate a Shockwave, which causes the effects of certain actions to spread out across a greater range than normal. The action is rolled once, then applied against everyone within range. Each range increment outside of the original target reduces the effect's Scale by two, as the force peters out.",
+		"Aliases":[],
+		"Examples": [
+			"The animated, bronze Colossus of Rhodes strikes the ground upon which Eric Donner is standing at Scale 4, which generates a Shockwave. Donnie Rhodes is within close range of Eric, so he suffers the same hit at Scale 2. Omolara Muhammad is within short range of Eric, so she takes the same hit, at Scale 0. Beyond that, it has no force. The Storyguide chooses a lot of Knockdown and Knockback Stunts."
+		],
+		"Note":"Not all Shockwaves stem directly from Scale; a master swordswoman might be able to cut everything within reach, thanks to a Knack granting her attack the Shockwave (Close) tag"
+	},
+	{
+		"Name":"Conditions",
+		"Type":"Rule",
+		"Page":"66",
+		"Source":"Scion Origin",
+		"Description":"Sometimes characters in Scion are struck by long-term problems or lingering benefits, such as a broken arm or a potent blessing. A **Condition** is a long-term status that lingers on a single character, affecting the challenges they face, and is usually represented as a Complication or Enhancement (or some mixture of the two). If a Condition causes a character to fail or otherwise suffer a significant setback, it provides 1 Momentum in addition to any gained as a Consolation\n\nA Condition always includes one or more ways to remove it, called resolutions. The Storyguide can add more resolutions if they make sense. For example, the Hangover Condition fades over time, but an appropriate Health Boon or ridiculous home remedy could end it early. If a Condition is resolved before it naturally fades away, it provides 1 Momentum.\n\nSome Conditions are so tied up with a character that removing them would be a dramatic change, like permanent blindness or paraplegia. These are **Persistent Conditions**, and can usually only be resolved with roleplaying, with Boons ,or other divine attention. Instead, they provide the band with a good source of Momentum."
+	},
+	{
+		"Name":"Fields",
+		"Type":"Rule",
+		"Page":"67",
+		"Source":"Scion Origin",
+		"Description":"A band of Scions may find themselves in a cursed temple or a cramped train car, which each impose their own obstacles and opportunities. **Fields** are similar to Conditions, except that they apply to every character within a specific area. Fields are not defined by distance and have nothing to do with an effect's range. Instead, they represent a single “place” with distinct features. A cramped elevator is a single Field for a fight, but so are the miles of empty desert surrounding Zerzura. \n\nFields provide context for the world of the story, so the Storyguide should add features whenever it makes sense. For example, if a character calls down a rainstorm while fighting on a rooftop, the Storyguide might add a Complication to the Field that causes careless characters to slip and fall. Players can suggest such ideas, but the final decision lies with the Storyguide."
+	},
+	{
+		"Name":"Threshold Successes",
+		"Type":"Rule",
+		"Page":"67",
+		"Source":"Scion Origin",
+		"Description":"Coming soon!"
+	},
+	{
+		"Name":"Stunts",
+		"Type":"Rule",
+		"Page":"67",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Twists of Fate",
+		"Type":"Rule",
+		"Page":"68, 99",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Degree of Success",
+		"Type":"Rule",
+		"Page":"69",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Complex Actions",
+		"Type":"Rule",
+		"Page":"69",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Complex Teamwork and Opposition",
+		"Type":"Rule",
+		"Page":"69",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!",
+		"Aliases":["team work"]
+	},
+	{
+		"Name":"Failure",
+		"Type":"Rule",
+		"Page":"69",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Consolation",
+		"Type":"Rule",
+		"Page":"70",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Momentum",
+		"Type":"Rule",
+		"Page":"70",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Botch",
+		"Type":"Rule",
+		"Page":"70",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Areas of Action",
+		"Type":"Rule",
+		"Page":"71",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!",
+		"Aliases":["action","combat"]
+	},
+	{
+		"Name":"Time",
+		"Type":"Rule",
+		"Page":"71",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!",
+		"Aliases":["turn","round","scene","act","session","episode","arc","season","series","action"]
+	},
+	{
+		"Name":"Initiative",
+		"Type":"Rule",
+		"Page":"71",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Actions",
+		"Type":"Rule",
+		"Page":"72",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!",
+		"Aliases":["action","combat"]
+	},
+	{
+		"Name":"Movement",
+		"Type":"Rule",
+		"Page":"72",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Difficult and Dangerous Terrain",
+		"Type":"Rule",
+		"Page":"73",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Chases",
+		"Type":"Rule",
+		"Page":"73",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Laps",
+		"Type":"Rule",
+		"Page":"73",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Information Gathering",
+		"Type":"Rule",
+		"Page":"73",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Finding Clues",
+		"Type":"Rule",
+		"Page":"74",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Clues and Stunts",
+		"Type":"Rule",
+		"Page":"75",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Planning and Enhancements",
+		"Type":"Rule",
+		"Page":"75",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Complex Investigations",
+		"Type":"Rule",
+		"Page":"75",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Crafting",
+		"Type":"Rule",
+		"Page":"75",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Object Tier",
+		"Type":"Rule",
+		"Page":"76",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Crafting Time",
+		"Type":"Rule",
+		"Page":"",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Flaws",
+		"Type":"Rule",
+		"Page":"77",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Making Repairs",
+		"Type":"Rule",
+		"Page":"77",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Intrigue",
+		"Type":"Rule",
+		"Page":"77",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Attitude",
+		"Type":"Rule",
+		"Page":"78",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Player Character Attitudes",
+		"Type":"Rule",
+		"Page":"78",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Shifting Attitude",
+		"Type":"Rule",
+		"Page":"78",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Atmosphere",
+		"Type":"Rule",
+		"Page":"78",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Influence",
+		"Type":"Rule",
+		"Page":"78",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Exerting Influence",
+		"Type":"Rule",
+		"Page":"79",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Blocking Influence",
+		"Type":"Rule",
+		"Page":"79",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Bonds",
+		"Type":"Rule",
+		"Page":"79",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Bonds and Influence",
+		"Type":"Rule",
+		"Page":"80",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Specialties",
+		"Type":"Rule",
+		"Page":"97",
+		"Source":"Scion Origin",
+		"Description":"For every Skill that ends up with three or more dots, choose a Specialty (p. 59). Specialties are only free during character creation. A Specialty is narrowly focused expertise within a Skill. For example, Firearms grants skill with all ranged weapons that use gunpowder, but a character may have a Specialty in Pistols. Once a character has a Specialty, she may apply that expertise as a 1-point Enhancement to other, related Skills, such as convincing a group of soldiers to buy pistols from Fenris Arms. Additionally, if she fails a roll in an Ability in which she has a Specialty (such as missing a character with a Firearms action) she gains an additional point of Momentum",
+		"Aliases":["specialty"]
+	},
+	{
+		"Name":"Defense",
+		"Type":"Rule",
+		"Page":"98",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Health",
+		"Type":"Rule",
+		"Page":"98",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Connections",
+		"Type":"Rule",
+		"Page":"100",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Contacts",
+		"Type":"Rule",
+		"Page":"100",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Knacks",
+		"Type":"Rule",
+		"Page":"104",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Clash of Wills",
+		"Type":"Rule",
+		"Page":"105",
+		"Source":"Scion Origin",
+		"Description":"Coming Soon!"
+	},
+	{
+		"Name":"Mortal: Aura of Greatness",
+		"Type":"Knack",
+		"Page":"105",
+		"Calling":"Any",
+		"Source":"Scion Origin",
+		"Description":"Something about the pre-Visitation Scion affects the people around them. They can be radically inspirational, the perfect confidant, or horrifically scary, depending on their origins and demeanor. Choose one Social Skill (Leadership, Empathy, or Persuasion), and the Scion may add Enhancement 2 as a bonus to that type of roll once per session, reflecting their Godly heritage."
+	},
+	{
+		"Name":"Mortal: Born to be Kings",
+		"Type":"Knack",
+		"Page":"105",
+		"Calling":"Any",
+		"Source":"Scion Origin",
+		"Description":"Scions are masters at enforcing their will upon The World, if it means serving their parents diligently. The first time each scene that the character would add points to the Momentum pool, they instead add 2."
+	},
+	{
+		"Name":"Mortal: Scent the Divine",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Any",
+		"Source":"Scion Origin",
+		"Description":"Having a touch of divinity, the Scion has an innate sense of anything divine near him. With a sniff or a knowing listen, he can detect another Scion of a particular pantheon."
+	},
+	{
+		"Name":"Mortal: Somebody's Watching Me",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Any",
+		"Source":"Scion Origin",
+		"Description":" A Scion's Godly parent has eyes and ears everywhere, and even if they don't Visit their child, they're often ready to lend a hand to aid their child in need. During a scene where the Scion would be in danger, their parent sends in reinforcements, usually resulting in either two Mooks or one Professional (see p. 145 for more on Archetypes) to fight on their side. These allies leave at the end of the scene, however."
+	},
+	{
+		"Name":"Mortal: Innate Toolkit",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Creator",
+		"Source":"Scion Origin",
+		"Description":" You are always able to work your craft, regardless of whether or not you have the appropriate tools available. When you use your bare hands to build or create something that would otherwise require special equipment, you suffer no penalty or any kind of Injury. For example: If you were to pound your bare fist against a railroad spike like a hammer or plunge your exposed fingers into a heated forge, you would not break bones or suffer more than cosmetic burns."
+	},
+	{
+		"Name":"Mortal: Perfect Rendition",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Creator",
+		"Source":"Scion Origin",
+		"Description":"You are a master artist, able to illustrate or recreate an image of a person, place, or object you have seen with photo-perfect clarity, allowing you to flawlessly identify suspects, create detailed maps, or forge signatures. You do this without needing to roll, and can recreate these things in scant instances. If something you observed has been obscured by a supernatural power, make a Clash of Wills."
+	},
+	{
+		"Name":"Mortal: Reverse Engineer",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Creator",
+		"Source":"Scion Origin",
+		"Description":"When you take apart an object, you instantly gain an understanding of how to rebuild it, or create new versions."
+	},
+	{
+		"Name":"Mortal: Flawlessly Platonic Ideal",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Creator",
+		"Source":"Scion Origin",
+		"Description":" When you work to improve an object, you make it as flawless as possible. When creating an object using this Knack, you may ignore 1 point of Flaws. In combat, you can upgrade light cover to heavy cover by making a Knack Skill roll. If materials are available, you may also spend Momentum and use an action to transform items that would not normally be protective (stacks of newspaper, empty cardboard boxes, curtains, etc.) into light cover."
+	},
+	{
+		"Name":"Mortal: Unlimited Quartermaster",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Creator",
+		"Source":"Scion Origin",
+		"Description":"You never need to roll to acquire mundane crafting supplies, as you always know where and how to find them. Unless the item is exceedingly rare (or being blocked from access by a rival), you get what you need with little complication — this does not make materials cost less, or arrive any faster should they need to be transported to you. If someone or something is preventing you from acquiring materials, make a Clash of Wills."
+	},
+	{
+		"Name":"Mortal: We Go All Night",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Creator",
+		"Source":"Scion Origin",
+		"Description":"When working on a creative project, you can work without ceasing for a number of days equal to your Creator Knack Skill. After this period, you must rest for a day before resuming your work. "
+	},
+	{
+		"Name":"Mortal: Wireless Interface",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Creator",
+		"Source":"Scion Origin",
+		"Description":"Electronic devices respond you without needing to touch them. They must be powered on and functional, but you can use a number of devices in the same Field as you equal to your Knack Skill with your hands free. If you try to do other things while communing with technology, you must make a mixed action roll."
+	},
+	{
+		"Name":"Mortal: A Fortress",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Guardian",
+		"Source":"Scion Origin",
+		"Description":"At the start of a combat scene, roll your Knack Skill with 1 Enhancement. Gain the following Stunts which you may spend the resulting successes on, each time you successfully Defend (e.g. an attack targeting you does not hit).\n\n*Get Out of Here (1s):* A target you are protecting immediately makes the Disengage action.\n\n*Second Wind (2s):* Heal a Bruised Injury you have taken, including Injuries sustained by your Armor.\n\n*My Turn (1s):* Make one additional attack action against an opponent that attacked your charge this round."
+	},
+	{
+		"Name":"Mortal: A Purpose",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Guardian",
+		"Source":"Scion Origin",
+		"Description":"Dedicate yourself to an ideal of your choosing (fight for love and justice, defend the weak, save The World from invasion). When you take action to defend this ideal, gain +1 Enhancement to all applicable rolls and to any Stunts you may have gained from Knacks."
+	},
+	
+	{
+		"Name":"Mortal: A Sentinel",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Guardian",
+		"Source":"Scion Origin",
+		"Description":"Choose a person or group of trivial targets to be your charge. When you guard your charge, you both gain +1 Defense so long as you stay in the same range band. You also gain +1 Enhancement to rolls to keep track of or defend your charge."
+	},
+	{
+		"Name":"Mortal: A Talisman",
+		"Type":"Knack",
+		"Page":"106",
+		"Calling":"Guardian",
+		"Source":"Scion Origin",
+		"Description":"Bless an object (usually belonging to someone you wish to protect, but not required) and make a Knack Skill roll. If any successes are achieved, it then grants the bearer 2 Enhancement to rolls made to defend or protect against a particular person, thing, or situation as defined at the time of blessing. If you are making a talisman for your charge, this happens automatically without needing to roll."
+	},
+	{
+		"Name":"Mortal: A Vigil",
+		"Type":"Knack",
+		"Page":"107",
+		"Calling":"Guardian",
+		"Source":"Scion Origin",
+		"Description":"When you stand guard over a person, place, or thing, you do not need to eat or sleep so long as your vigil persists. This benefit extends so long as the protected target remains within your sight. You may do other things — talk, interact, move around, etc. — but must devote most of your time to keeping your vigil. You may only keep vigil over one thing at a time."
+	},
+	{
+		"Name":"Mortal: A Warning",
+		"Type":"Knack",
+		"Page":"107",
+		"Calling":"Guardian",
+		"Source":"Scion Origin",
+		"Description":"You sense the presence of danger before it emerges. Spend Momentum and double the successes on any roll to detect ambushes or to discern whether a person means harm. If you are protecting your charge, you do not need to pay the cost."
+	},
+	{
+		"Name":"Mortal: The Bare Minimum",
+		"Type":"Knack",
+		"Page":"107",
+		"Calling":"Healer",
+		"Source":"Scion Origin",
+		"Description":"You are always able to safely tend to someone's wounds, even if you have no sanitary medical tools available. Even if all you have are twigs and dirt, you'll be able to perform surgery at no increased difficulty and at no risk to your patient."
+	},
+	{
+		"Name":"Mortal: Combat Medic",
+		"Type":"Knack",
+		"Page":"107",
+		"Calling":"Healer",
+		"Source":"Scion Origin",
+		"Description":"When you tend to an ally's wounds in the heat of battle as a reflexive action, once per turn remove any Bruised Injury they may be suffering — including damage sustained to armor — without needing to roll."
+	},
+	{
+		"Name":"Mortal: Damage Conversion",
+		"Type":"Knack",
+		"Page":"107",
+		"Calling":"Healer",
+		"Source":"Scion Origin",
+		"Description":"When you administer medical attention to a patient or yourself as an action, convert any Injuries to one lower: Maimed becomes Injured, Injured becomes Bruised, and Bruised Injuries heal completely"
+	},
+	{
+		"Name":"Mortal: Doctor's Kit",
+		"Type":"Knack",
+		"Page":"107",
+		"Calling":"Healer",
+		"Source":"Scion Origin",
+		"Description":"At the start of a combat scene, roll your Knack Skill. Spend the resulting successes on the following Stunts whenever a bandmate or allied character in the same range band as you takes an Injury: \n\n*Ice Pack (1s):* Remove a Bruised Injury, including those sustained by armor\n\n*Swift Bandaging (2s):* Remove an Injured Injury\n\n*Emergency Operation (4s):* Remove a Maimed Injury until the end of the scene"
+	},
+	{
+		"Name":"Mortal: Immunization Booster",
+		"Type":"Knack",
+		"Page":"107",
+		"Calling":"Healer",
+		"Source":"Scion Origin",
+		"Description":"Designate up to your Knack Skill in targets to be under your care. While under your protection, they get +2 Enhancement to all rolls to resist disease and poison, and to recover from Injuries. Storyguide characters you protect in this way are automatically protected — that is, the Storyguide does not need to make rolls when they would be affected by disease or poison."
+	},
+	{
+		"Name":"Mortal: Surgeon with the Hands of God",
+		"Type":"Knack",
+		"Page":"107",
+		"Calling":"Healer",
+		"Source":"Scion Origin",
+		"Description":"Halve the time you need to undertake any kind of medical procedure (such as surgery). You never face any increased difficulty to treat a critically ill or injured patient."
+	},
+	{
+		"Name":"Mortal: With a Glance",
+		"Type":"Knack",
+		"Page":"107",
+		"Calling":"Healer",
+		"Source":"Scion Origin",
+		"Description":"When you spend time interacting with an ailing target, you diagnose what is wrong with him, as well as any other pertinent medical information. In the event that she is diagnosing a patient suffering from a supernatural disease, this may require a Knack Skill roll, which is opposed by whomever afflicted the victim."
+	},
+	{
+		"Name":"Mortal: Apex Predator",
+		"Type":"Knack",
+		"Page":"108",
+		"Calling":"Hunter",
+		"Source":"Scion Origin",
+		"Description":"When a target of lower Tier who you have been pursuing attacks you or otherwise attempts to hunt you in return, increase the difficulty of all Stunts they apply against you by 1. If this target is your quarry, increase it by an additional +1."
+	},
+	{
+		"Name":"Mortal: Eyes in the Blinds",
+		"Type":"Knack",
+		"Page":"108",
+		"Calling":"Hunter",
+		"Source":"Scion Origin",
+		"Description":"Spend Momentum to invest a fraction of your power into a small token (a coin, a figurine, dice, an arrowhead, etc.). Place this token anywhere in a Field you are aware of, and for as long as it remains in place you have the power to observe the goings-on in the Field as if you were present. This lasts for the duration of a day in-game time, or for a session of play, whichever is longer. You do not have to deliver the token yourself, and may send an ally or animal companion to deliver it instead. If the token is destroyed or otherwise removed from the Field, the effect ends. The Difficulty to notice the token is equal to your Hunter Calling dots"
+	},
+	{
+		"Name":"Mortal: Internal Compass",
+		"Type":"Knack",
+		"Page":"108",
+		"Calling":"Hunter",
+		"Source":"Scion Origin",
+		"Description":"You always know your precise direction — whether that be navigating while on foot or driving a car, or working your way out of a petty God's labyrinthine prison. You do not ever have to roll to navigate somewhere, or to find your way out of being lost. If you are entrapped in a magical maze, make a Clash of Wills with 2 Enhancement. "
+	},
+	{
+		"Name":"Mortal: Keen-Eyed Predator",
+		"Type":"Knack",
+		"Page":"108",
+		"Calling":"Hunter",
+		"Source":"Scion Origin",
+		"Description":"When you enter a Field, you extend your senses to determine what might await you. Ask one question from the following list for free. You may roll your Knack Skill and spend one success per additional question. The Storyguide must answer these questions honestly:\n• What kinds of hazards (such as terrain) are present?\n• Where is the nearest exit?\n• Where is the safest way in?\n• How many hostile enemies are present?\n• Who (or what) is the biggest threat?"
+	},
+	{
+		"Name":"Mortal: Most Ganerous Prey",
+		"Type":"Knack",
+		"Page":"108",
+		"Calling":"Hunter",
+		"Source":"Scion Origin",
+		"Description":"Choose an enemy to be your quarry. When you pursue your quarry, gain +1 Enhancement to all rolls made against the target (including attack rolls) until the end of the session or until you catch them, whichever comes first. You gain access to the following Stunts, which may be applied to any attack action made against your quarry: \n\n*Stalk (1s):* After resolving your attack, spend a success to take an additional Move action. \n\nSnare (any successes above Defense):* You trap the target in place. They may not make Move, Rush, or Disengage actions. To end the effect, the target must make Athletics + Dexterity rolls vs. your Knack Skill until they succeed or until you choose to end it, whichever comes first.     "
+	},
+	{
+		"Name":"Mortal: Silence in the Woods",
+		"Type":"Knack",
+		"Page":"108",
+		"Calling":"Hunter",
+		"Source":"Scion Origin",
+		"Description":"When pursuing a target, you make no noise at all, adding +2 Enhancement to avoid detection based on hearing/sound (including things that can perceive vibrations without specifically hearing) and to set up ambushes. This Enhancement applies before you roll. Recording equipment is also unable to pick up your sound. "
+	},
+	{
+		"Name":"Mortal: Worrying Hound",
+		"Type":"Knack",
+		"Page":"108",
+		"Calling":"Hunter",
+		"Source":"Scion Origin",
+		"Description":"While pursuing a target, you do not face any increase in difficulty to track down your target, even if they were to take flight, hide in a body of water, or attempt to disappear into the back alleys of a crowded city. You always have some idea of where your target has gone, and gain +1 Enhancement to keep up with him and to apply any Stunts you may have access to from Hunter Knacks. When you hunt your quarry, add another +1 Enhancement."
+	},
+	{
+		"Name":"Mortal: Eye for an Eye",
+		"Type":"Knack",
+		"Page":"108",
+		"Calling":"Judge",
+		"Source":"Scion Origin",
+		"Description":"When you suffer an Injury, spend Momentum and inflict the same Injury on the target that attacked you. The target must have attacked you directly; you cannot reflect attacks that targeted someone else. If the target does not have the ability to take a similar Injury (having your arm bitten by a giant snake, for example), inflict an Injury of similar severity instead, such as a festering, envenomed bite mark. This also applies to Critical Hits inflicted."
+	},
+	{
+		"Name":"Mortal: Indisputable Analysis",
+		"Type":"Knack",
+		"Page":"108",
+		"Calling":"Judge",
+		"Source":"Scion Origin",
+		"Description":"You spend a moment observing the scene you wish to analyze and the player makes a Knack Skill roll. You then apply the successes on this roll as Enhancement to all rolls made to analyze and investigate the incident for the rest of the scene. These successes apply before you roll."
+	},
+	{
+		"Name":"Mortal: Lie Detector",
+		"Type":"Knack",
+		"Page":"108",
+		"Calling":"Judge",
+		"Source":"Scion Origin",
+		"Description":"Anyone of a Tier lower than you suffers +2 Complication to lie to you. If you are currently casing and they are somehow involved, they simply cannot lie to you at all. The Storyguide should also notify you when a lie has been told, though it does not automatically reveal the truth, and also reveals nebulous truth, such as “he has been convinced this is true” — which should always be a means for characters to pursue the person who manipulated the target in the first place."
+	},
+	{
+		"Name":"Mortal: Objection!",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Judge",
+		"Source":"Scion Origin",
+		"Description":"You mark a target, and anyone targeting them with an action gains +1 Enhancement to all rolls. This bonus applies before you roll. Gain access to the following Stunt, which you may apply to any of your attack actions: Terrify (any successes above Defense): After applying this Stunt, the target must make a Clash of Wills roll. On a failure, they must flee the fight or suffer +2 Difficulty to attack rolls until the fight is over."
+	},
+	{
+		"Name":"Mortal: On the Case",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Judge",
+		"Source":"Scion Origin",
+		"Description":"When you investigate an event or scene, you are casing. While casing, gain +1 Enhancement to rolls to discern motives and search for clues, which applies before you roll. Casing lasts until the end of the session."
+	},
+	{
+		"Name":"Mortal: Quick Study",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Judge",
+		"Source":"Scion Origin",
+		"Description":"You sweep your eyes over a crime scene and collects clue almost immediately. Halve the time you would need to perform an investigation. Quarter it if you are also casing."
+	},
+	{
+		"Name":"Mortal: The Truth Arises:",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Judge",
+		"Source":"Scion Origin",
+		"Description":"When you engage in conversation (or other such interaction) with an alleged perpetrator of a crime, make a Knack Skill roll. On a success, if the target is guilty, he will leak a piece of information that connects him to his crime. Before expending effort on using this Knack, let the Storyguide know, and she should tell you if the target does not have any valuable information to leak — which in itself can be helpful in an investigation. "
+    },
+	{
+		"Name":"Mortal: Captain of Industry",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Leader",
+		"Source":"Scion Origin",
+		"Description":"When you take charge of a group, roll Knack Skill. For every two successes rolled, reduce the difficulty of all actions taken by the group you command by 1. You can inspire a number of people equal to your Leadership + 1, or can spend a point of Momentum to apply this to a much larger group, giving the action a Scale. The decrease in difficulty does not apply to you, though while you are inspiring others, you gain 2 Enhancement to apply to Social rolls involving leadership, and any Stunts you may have gained from Knacks."
+	},
+	{
+		"Name":"Mortal: Cloak of Dread",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Leader",
+		"Source":"Scion Origin",
+		"Description":"You project an aura of menace that terrifies and intimidates anyone who would dare cross you. Spend Momentum and double your successes on any Knack Skill rolls to intimidate targets. Enemies of a lesser Tier and extras simply will not attack you."
+	},
+	{
+		"Name":"Mortal: Good Listener",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Leader",
+		"Source":"Scion Origin",
+		"Description":"When you make casual conversation with an SGC, that character will reveal information or an important detail that the Leader is looking for, if they know it. Before using this ability, tell the Storyguide what you're seeking; if the SGC doesn't know it, you immediately become aware that the character isn't relevant to your quest. Even the most recalcitrant of characters eventually opens up and reveals a clue — this power requires no roll."
+	},
+	{
+		"Name":"Mortal: Grand Entrance",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Leader",
+		"Source":"Scion Origin",
+		"Description":"When you make a first impression, roll your Knack Skill. On a success, the target remembers you favorably, granting you +1 Enhancement to all Social rolls made towards them until the end of the session."
+	},
+	{
+		"Name":"Mortal: Lighthouse of Society",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Leader",
+		"Source":"Scion Origin",
+		"Description":"In a tense, heated, or chaotic situation, you stand as a beacon of certain leadership. Your presence is a bulwark against fear and panic. As long as a crowd has not been frightened directly by magical means, you can get a group of people to act calm and do as you ask (such as evacuating a dangerous area) in an orderly fashion without needing to roll. A supernatural situation requires a Clash of Wills. For example, if an enemy Scion of Eris sows panic into a crowd of mortals so they'll bolt and trample each other, a roll would be made against her. If Poseidon creates a tidal wave that happens to scare people because natural disasters are terrifying, a roll would not be made against him."
+	},
+	{
+		"Name":"Mortal: Perfect Poise",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Leader",
+		"Source":"Scion Origin",
+		"Description":"You cannot be shaken by panic or fear unless it is from another supernatural source — in which case, you gain 2 Enhancement to resist it (such as making Clash of Wills rolls) that applies before you roll. You also gain 1 Enhancement to all Social rolls involving grace, poise, or composure, and to keep a “poker face.” This also applies before you roll."
+	},
+	{
+		"Name":"Mortal: Beyond Memory",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Liminal",
+		"Source":"Scion Origin",
+		"Description":"You bend the boundaries of cognition, fading from memory after an interaction. Anyone trying to describe you or recall the details of your interaction must make an Occult + Composure roll at Difficulty 2 to remember anything at all, with a 1-point Complication. If they fail to meet this Complication, your identity is safe, though the details of their interaction are not. If this is magically contested, make a Clash of Wills. You may spend Momentum and double successes on any Liminal Skill rolls to avoid passive detection, notice, or stealth otherwise; this does not work against active searching."
+	},
+	{
+		"Name":"Mortal: Complete Privacy",
+		"Type":"Knack",
+		"Page":"109",
+		"Calling":"Liminal",
+		"Source":"Scion Origin",
+		"Description":"By reinforcing the importance of your personal boundaries, any interactions you take cannot be listened in on, your lips cannot be read, your phone can't be tapped, etc. by use of mundane means. Add +2 difficulty to attempts to tail you. This protects only against covert attempts to invade your privacy and offers no protection against airport security going through your luggage or rivals breaking into your apartment."
+	},
+	{
+		"Name":"Mortal: Experienced Traveler",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Liminal",
+		"Source":"Scion Origin",
+		"Description":"When you travel to a new place, no matter how remote, you quickly pick up the social mores and behaviors, along with enough of the language to get by. Add +1 Enhancement to any applicable rolls to blend into the culture, if the Storyguide feels a need to call for a roll at all. This bonus applies before you roll. Additionally, when you attend a social ritual (such as a wedding or a funeral or a birthday party) you always know exactly the right social mores to follow, and how to appropriately dress. Even if you were not invited, you will not read as out of place."
+	},
+	{
+		"Name":"Mortal: Flatlander",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Liminal",
+		"Source":"Scion Origin",
+		"Description":"When you make a close combat, thrown, or ranged attack, you gain access and 1 Enhancement to apply any of the following Stunts to your action, in addition to the default set: \n*Glimpse the Other Side (any successes above Defense):* Make a Clash of Wills. If the target fails, they are stunned or disabled (leaving play entirely) until the start of their next turn. They roll initiative as normal and remain where they were standing on their action. An opponent stunned in this way cannot be targeted by any actions until they reappear. \n*Stutter Time (any successes above Defense):* You force the target of your attack to suffer a penalty to their Initiative equal to the successes you spend on this Stunt. This pushes a fast opponent further down the initiative roster. If you are targeting an opponent who has already gone, they take this penalty at the start of the next turn. \n*Bend Space (any successes above Defense):* Reduce the target's range by 1 for each success spent on this Stunt, to a minimum of close, which lasts until the end of the target's next action."
+	},
+	{
+		"Name":"Mortal: Neither the Minute nor the Hour",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Liminal",
+		"Source":"Scion Origin",
+		"Description":"You make an intimidating prediction about the details of your target's inevitable death (which does not have to be true) and make an opposed Knack Skill roll. If successful, the target suffers a +1 Difficulty to all actions for the rest of the scene. "
+	},
+	{
+		"Name":"Mortal: Unerring Delivery",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Liminal",
+		"Source":"Scion Origin",
+		"Description":"Send a message via another person — a stranger you choose on the street, a spirit or ghost of your pantheon, etc. — to someone in an instant, which can be done even if you are not present in The World, or somewhere else where a simple text or email might not reach."
+	},
+	{
+		"Name":"Mortal: Unobtrusive Visitor",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Liminal",
+		"Source":"Scion Origin",
+		"Description":"When you would observe or infiltrate a location where you do not belong, spend a Momentum and blur the line between what is expected and unexpected. You take on the aspect of someone unassuming and invisible: a janitor, gardener, housekeeper, etc. So long as you collect information or remain an observer and do not take hostile action, anyone in the same Field as you overlooks your presence. This lasts until you take violent action, or until you leave the Field, whichever comes first."
+    },
+	{
+		"Name":"Mortal: Fluid Appeal",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Lover",
+		"Source":"Scion Origin",
+		"Description":"When interacting with someone, gain knowledge of whatever floats their boat. At any subsequent interaction, you can shift your features to be more appealing, adding +2 Enhancement to any persuasive social action including but not limited to seduction. This bonus applies before the roll is made. Note that this does not conceal your identity in any way."
+	},
+	{
+		"Name":"Mortal: I am a Fire",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Lover",
+		"Source":"Scion Origin",
+		"Description":"You stoke the affection one person has towards another — including yourself — which impels them towards a relationship. If it is between two Storyguide characters, work with the Storyguide to determine how their suddenly passionate relationship takes shape. If the target is one of your bandmates, this Knack does not work unless you obtain permission from the character's player. If the target is yourself, you gain +1 Enhancement to all Social rolls involving your partner of choice until the end of the session."
+	},
+	{
+		"Name":"Mortal: Lover's Intuition",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Lover",
+		"Source":"Scion Origin",
+		"Description":"When touching another character, which may be as brief as a handshake, you gain an understanding of your target's romantic life. Ask one question from the following list for free. You may roll your Knack Skill and spend one success per additional question. \n• Who or what does the character love? \n• Who is the character romantically involved with? \n• Who is the character close to? \n• Who would the character like to be romantically involved with? This may be used on your bandmates with consent from the player."
+	},
+	{
+		"Name":"Mortal: On Your Side",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Lover",
+		"Source":"Scion Origin",
+		"Description":"When you make a teamwork action with a person with whom you have a devoted, intimate, or romantic relationship, add your Lover dots in Enhancement to spend on Stunts including any you may have gained from Knacks."
+	},
+	{
+		"Name":"Mortal: Not a Fighter",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Lover",
+		"Source":"Scion Origin",
+		"Description":"When you are engaged in a fight, as long as you do not make attacks, enemies will not target you directly with their attacks. Additionally, gain +1 Enhancement to disengage and withdrawal rolls. You must also have a partner or Followers present for this effect to apply. "
+	},
+	{
+		"Name":"Mortal: Perfect Partner",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Lover",
+		"Source":"Scion Origin",
+		"Description":"You know how to work perfectly in sync with someone, down to the timed beats of their hearts. Double the usual benefit you would provide from any teamwork rolls. "
+	},
+	{
+		"Name":"Mortal: Soothing Presence",
+		"Type":"Knack",
+		"Page":"110",
+		"Calling":"Lover",
+		"Source":"Scion Origin",
+		"Description":"When you enter an initial social encounter, reduce Attitude by 1. For any other interaction in which you attempt to get someone else to relax, calm down, or be welcoming, you have 1 Enhancement to all applicable rolls and to apply to any Stunts you may have gained from Knacks."
+    },
+	{
+		"Name":"Mortal: Blockade of Reason",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Sage",
+		"Source":"Scion Origin",
+		"Description":"You readily deflate the arguments of hucksters and con men with a sharp application of reason, or blunt denial (usually calling out the person for what they are trying to do). Targets of lower Tier cannot trick, coerce, swindle, or con you, and any supernatural attempts to do so trigger a Clash of Wills. You add 2 Enhancement to the Clash of Wills roll."
+	},
+	{
+		"Name":"Mortal: Master of The World",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Sage",
+		"Source":"Scion Origin",
+		"Description":"While inside a Field, you may define up to three points of Enhancements or Complications (or a combination of each) that are readily apparent to your perceptions (which may be enhanced by other abilities) but not obvious to other observers. They must conform to the Features of the Field, however — it makes sense for a shotgun to be behind the bar, but not a rocket launcher. The hardwood floors of a burning building could be expected to be weak, but the flames can't be cold. Only three total Enhancements or Complications can be applied to a Field at a time, regardless of how many Scions possess this ability."
+	},
+	{
+		"Name":"Mortal: Palace of Memory",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Sage",
+		"Source":"Scion Origin",
+		"Description":"When you recall past events that you have experienced or studied, you are able to recall the details flawlessly, never missing out on any clues or dropping the ball on any details you might remember. This allows the player to bypass the need to roll to remember salient details or facts, and also to declare a narrative advantage she may have remembered without needing to invoke her Path. If you missed a Procedural Clue in a prior scene, you may attempt to rediscover it."
+	},
+	{
+		"Name":"Mortal: Presence of Magic",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Sage",
+		"Source":"Scion Origin",
+		"Description":"You always know when you are near an object or place of true magical or sacred power. How this manifests is up to you. Ask the Storyguide if an object is magical or sacred, and she must tell you honestly “yes” or “no.” This bypasses the need to make any kind of Occult roll to identify a place or object of magical or sacred power."
+	},
+	{
+		"Name":"Mortal: Office Hours",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Sage",
+		"Source":"Scion Origin",
+		"Description":"When someone approaches you with a problem that you can solve, they gain +1 Enhancement to resolve it themselves if you work them through a solution. If you can't solve it, you gain the same bonus to all rolls to solve it on your own. These bonuses apply before rolls are made. Spend Momentum to impel a Storyguide Character to come to you with a problem in need of solving."
+	},
+	{
+		"Name":"Mortal: Omniglot Translation",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Sage",
+		"Source":"Scion Origin",
+		"Description":"When you converse in or read a foreign language, your communication is flawless, without a trace of an accent. You can turn out translations in your native language in a matter of minutes without needing to roll. If you are translating mystical runes or the handwriting of Gods, you still do so swiftly, but must make a Knack Skill roll."
+	},
+	{
+		"Name":"Mortal: Speed Reading",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Sage",
+		"Source":"Scion Origin",
+		"Description":"When you read materials for your research, you do so at lightning speed, devouring thick tomes in a matter of minutes and flipping through electronic documents in the blink of an eye. Halve the time you need to do any kind of academic research. Once a scene you may establish that you've read up on a subject and gain 1 Enhancement to the next applicable roll. This bonus applies before the roll."
+	},
+	{
+		"Name":"Mortal: Blather and Skite",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Trickster",
+		"Source":"Scion Origin",
+		"Description":"When you spout nonsense at your target, they must spend a moment trying to figure out what the heck you just said — buying you or someone else more time to accomplish any kind of underhanded task: sneaking into a place, slipping past a posted sentry, lying your way through security, and so on. This works automatically on any character of same or lower Tier, but requires a Knack Skill roll to work on someone of higher Tier. For each success rolled, you buy five minutes of in-game time or one turn of combat (whichever is more immediately applicable) before enemies realize you've infiltrated and go on high alert. If you use this on one of your bandmates, you only succeed with the consent of the other character's player."
+	},
+	{
+		"Name":"Mortal: In Sheep's Clothing",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Trickster",
+		"Source":"Scion Origin",
+		"Description":"When you disguise yourself, you do without needing to roll. You have the option to change your hair, skin, and eye color, apparent gender, and height within a few inches, but cannot assume the exact appearance of someone else. The disguise cannot be seen through, though your mannerisms and turn of phrase may give you away. At Storyguide discretion, Knack Skill rolls may be required to blend in."
+	},
+	{
+		"Name":"Mortal: Light Fingered",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Trickster",
+		"Source":"Scion Origin",
+		"Description":"When you steal an object or pickpocket someone, you do so without needing to roll, so long as the object is something you can conceal in your hands. If you use this ability to lift something from a member of your band, you must do so with the consent of that character's player. You cannot steal an item that is currently in use. Stealing a weapon from an enemy would first require the Disarm or Seize stunt."
+	},
+	{
+		"Name":"Mortal: Rumor Miller",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Trickster",
+		"Source":"Scion Origin",
+		"Description":"Your lies catch on like wildfire, and you need only make the smallest post on social media to get a wild rumor circulating. Make a Knack Skill roll — any successes delivers the rumor about the target to those who should hear it — his boss, his husband, his best friends, etc."
+	},
+	{
+		"Name":"Mortal: Smoke and Mirrors",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Trickster",
+		"Source":"Scion Origin",
+		"Description":"Once per scene, when you would be Taken Out, you instead spend Momentum, negate the damage that would have taken you out and move one range band away from your attacker — but leave behind a brief afterimage of your outline, which crumbles into dust seconds later."
+	},
+	{
+		"Name":"Mortal: Takes One to Know One",
+		"Type":"Knack",
+		"Page":"111",
+		"Calling":"Trickster",
+		"Source":"Scion Origin",
+		"Description":"When you are the target of a scam or a lie, you recognize that a deception is taking place. You do not know what the truth is, but you instinctively understand that you are in the company of liars and cheaters. Whether or not you call out the cheat on his dishonest actions is up to you."
+	},
+	{
+		"Name":"Mortal: Wasn't Me",
+		"Type":"Knack",
+		"Page":"112",
+		"Calling":"Trickster",
+		"Source":"Scion Origin",
+		"Description":"When you do something with legal or social consequences, you delay the consequence by transferring blame to someone else of the same or lower Tier. This delay lasts until the end of the session by default, but may be delayed further by making a Knack Skill roll, and spending 1 success per scene of delay. To push blame onto a member of your band, you must do so with the consent of that character's player. Once the delay ends, anyone of higher Tier than you who had been duped by this Knack realizes they've been tricked, and will likely seek revenge. "
+    },
+	{
+		"Name":"Mortal: The Biggest Threat",
+		"Type":"Knack",
+		"Page":"112",
+		"Calling":"Warrior",
+		"Source":"Scion Origin",
+		"Description":"When you make a show of force or intimidate your enemy, make a Knack Skill roll. On a success, the target must focus its efforts on dealing with you first, suffering +2 Difficulty to attack anyone else."
+	},
+	{
+		"Name":"Mortal: Close the Gap",
+		"Type":"Knack",
+		"Page":"112",
+		"Calling":"Warrior",
+		"Source":"Scion Origin",
+		"Description":"The first time you make a combat movement roll, make a Knack Skill roll instead. Spend successes on the following Stunts for the rest of the fight: \n*Charge! (1s):* You make the Rush action without needing to make an opposed roll. This is negation is limited by the rules for applying Knack abilities — i.e. you may not apply it to anyone two Tiers higher than you. \n*Inescapable (1s):* Opponents of a lower Tier than you who are engaged with you in combat may not make the Disengage action. You must spend a success on this Stunt each time a different opponent would try to escape you, but only need to apply it once per target. \n*Sure-footed (1s):* Apply this Stunt to a combat movement action; Difficult terrain does not apply to this movement."
+	},
+	{
+		"Name":"Mortal: Death by Teacup",
+		"Type":"Knack",
+		"Page":"112",
+		"Calling":"Warrior",
+		"Source":"Scion Origin",
+		"Description":"When you use an improvised weapon, it becomes as deadly as anything designed for the job. It takes on the profile of any existing weapon of a similar size or shape: A teacup becomes brass knuckles or a punch dagger; a shard of glass becomes a knife; a thrown shoe becomes a throwing hatchet, etc. It must appropriately fit something of a similar size and shape, as described in the examples listed. This benefit lasts until you no longer hold the object, or until it breaks, or until you are no longer using the object with any Warrior Skill — whichever comes first. In the case of thrown objects, the benefit extends until impact. A hurled shoe strikes with the force of a tomahawk and then becomes ordinary footwear when it hits the ground. This is compatible with Master of Weapons, though still adheres to the set limitations."
+	},
+	{
+		"Name":"Mortal: Enhanced Impact",
+		"Type":"Knack",
+		"Page":"112",
+		"Calling":"Warrior",
+		"Source":"Scion Origin",
+		"Description":"Whenever you successfully deal Injury with your Knack Skill, you also knock the target back one range band. This does not do any extra damage, but can put someone in a tight spot. "
+	},
+	{
+		"Name":"Mortal: Master of Weapons",
+		"Type":"Knack",
+		"Page":"113",
+		"Calling":"Warrior",
+		"Source":"Scion Origin",
+		"Description":"At the beginning of the session, choose one of your weapons to be your favored weapon. When you use your favored weapon, add a number of additional Tag points to it up to your Warrior Calling. These do not have to fit the weapon's existing profile: A sword can be made to strike at Far range, for example. Spend Momentum to switch the benefit to another weapon. Negative cost Tags cannot be purchased with this Knack."
+	},
+	{
+		"Name":"Mortal: Trick Shot",
+		"Type":"Knack",
+		"Page":"113",
+		"Calling":"Warrior",
+		"Source":"Scion Origin",
+		"Description":"When showing off with a ranged weapon, convert any additional Difficulty imposed because of your showmanship into Enhancement instead which may be spent on any Ranged Attack Stunt besides Inflict Damage. This applies before your roll."
+	},
+	{
+		"Name":"Mortal: Well Tempered",
+		"Type":"Knack",
+		"Page":"113",
+		"Calling":"Warrior",
+		"Source":"Scion Origin",
+		"Description":"When you wear no armor, you are considered to have the Armored Tag. This benefit stacks with the increased difficulty of the Inflict Damage Stunt granted by any other armor you wear when you fight lesser foes (minor characters, or anyone a Tier lower than you)."
+    },
+	{
+		"Name":"Heroic: Aura of Greatness",
+		"Type":"Knack",
+		"Page":"224",
+		"Calling":"Any",
+		"Source":"Scion Hero",
+		"Description":"Something about you affects everyone around. You can be radically inspirational,the perfect confidant, or horrifically scary, depending on your origin and demeanor. Choose one Social Skill (Leadership, Empathy, or Persuasion); you may add Enhancement 2 as a bonus to that type of roll once per session, reflecting your Godly heritage."
+	},
+	{
+		"Name":"Heroic: Born to be Kings",
+		"Type":"Knack",
+		"Page":"224",
+		"Calling":"Any",
+		"Source":"Scion Hero",
+		"Description":"Scions are masters at enforcing their will upon the World, if it means serving their parents diligently. The first time each Scene that the character would add points to the Momentum pool, they instead add 2."
+	},
+	{
+		"Name":"Heroic: Scent the Divine",
+		"Type":"Knack",
+		"Page":"224",
+		"Calling":"Any",
+		"Source":"Scion Hero",
+		"Description":"Having a touch of divinity, you have an innate sense of anything divine near you. With a sniff or a knowing listen, you may detect another Scion (or God, or Legendary Creature, etc.) of a particular pantheon."
+	},
+	{
+		"Name":"Heroic: Somebody's Watching Me",
+		"Type":"Knack",
+		"Page":"224",
+		"Calling":"Any",
+		"Source":"Scion Hero",
+		"Description":"A Scion's Godly parent has eyes and ears everywhere, and even if they don't Visit their child, they're often ready to lend a hand to aid their child in need. During a scene where the Scion would be in danger, their parent sends in reinforcements, usually resulting in either two Mooks or one Professional (see Scion: Origin p. 143 for more on Archetypes) to fight on their side. These allies leave at the end of the scene, however."
+	},
+	{
+		"Name":"Heroic: Innate Toolkit",
+		"Type":"Knack",
+		"Page":"224",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"You are always able to work your craft, regardless of whether or not you have the appropriate tools available. When you use your bare hands to build or create something that would otherwise require special equipment, you suffer no penalty or any kind of Injury. For example: If you were to pound your bare fist against a railroad spike like a hammer or plunge your exposed fingers into a heated forge, you would not break bones or suffer burns."
+	},
+	{
+		"Name":"Heroic: Perfect Rendition",
+		"Type":"Knack",
+		"Page":"224",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"You are a master artist, able to illustrate or recreate an image of a person, place, or object you have seen with photo-perfect clarity, allowing you to flawlessly identify suspects, create detailed maps, or forge signatures. You do this without needing to roll, and can recreate these things in scant instances. If something you observed has been obscured by a supernatural power, make a Clash of Wills."
+	},
+	{
+		"Name":"Heroic: Reverse Engineer",
+		"Type":"Knack",
+		"Page":"224",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"When you take apart an object, you instantly gain an understanding of how to rebuild it, or create new versions."
+	},
+	{
+		"Name":"Heroic: Flawlessly Platonic Ideal",
+		"Type":"Knack",
+		"Page":"224",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"When you work to improve an object, you make it as flawless as possible. When creating an object using this Knack, you may ignore up to your Creator dots (1) in points of Flaws. In combat, you can upgrade light cover to heavy cover by making a Knack Skill roll. If materials are available, you may also spend Momentum and use an action to transform items that would not normally be protective (stacks of newspaper, empty cardboard boxes, curtains, etc.) into light cover."
+	},
+	{
+		"Name":"Heroic: The Unlimited Quartermaster",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"You never need to roll to acquire mundane crafting supplies, as you always know where and how to find them. Unless the item is exceedingly rare (or being blocked from access by a rival), you get what you need with little complication — this does not make materials cost less, or arrive any faster should they need to be transported to you. If someone or something is preventing you from acquiring materials, make a Clash of Wills."
+	},
+	{
+		"Name":"Heroic: We Go All Night",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"When working on a creative project, you can work without ceasing for a number of days equal to your Creator Knack Skill. After this period, you must rest for a day before resuming your work."
+	},
+	{
+		"Name":"Heroic: Wireless Interface",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"Electronic devices respond you without needing to touch them. They must be powered on and functional, but you can use a number of devices in the same Field as you equal to your Knack Skill with your hands free. If you try to do other things while communing with technology, you must make a mixed action roll."
+    },
+	{
+		"Name":"Immortal: Afternoon of Fortnights",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"When you begin a creative project, spend Momentum and make a Knack Skill roll. For each success earned on this roll you decrease the amount of time required to work on the project by one unit. This is measured in either units of dramatic time (a project that would take a whole session can be downgraded to a scene) or in in-game units of time (years become months, months become weeks, etc.) whichever is more appropriate for the game's approach."
+	},
+	{
+		"Name":"Immortal: Lifted from Dust",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"When you work on a creative project that would cover a massive Scale (planning a city or designing a civilization), imbue a point of Legend, rather than spending, to invoke your legendary Title as a Feat of Scale."
+	},
+	{
+		"Name":"Immortal: Raise the Pillars of the Earth",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"Make a Creator Skill roll. With any successes, you create a small building, structure, or monument in a matter of minutes, which grows from nothing but rocks and dirt. To raise a creation in a scant instant, spend Momentum."
+	},
+	{
+		"Name":"Immortal: Touch of the Muses",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Creator",
+		"Source":"Scion Hero",
+		"Description":"When working on an artistic project, double the successes earned on each roll made by an artistic partner. You have the option to spend Momentum and lend this benefit to yourself. "
+    },
+	{
+		"Name":"Heroic: A Fortress",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Guardian",
+		"Source":"Scion Hero",
+		"Description":"At the start of a combat scene, roll your Knack Skill with 1 Enhancement. Gain the following Stunts which you may spend the resulting successes on, each time you successfully Defend (e.g. an attack targeting you does not hit). \n*Get Out of Here (1s):* A target you are protecting immediately makes the Disengage action. \n*Second Wind (2s):* Heal a −1 Injury you have taken, including Injuries sustained by your Armor. \n*My Turn (1s)* Make one additional attack action against an opponent that attacked your charge this round."
+	},
+	{
+		"Name":"Heroic: A Purpose",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Guardian",
+		"Source":"Scion Hero",
+		"Description":"Dedicate yourself to an ideal of your choosing (fight for love and justice, defend the weak, save the World from invasion). When you take action to defend this ideal, gain +1 Enhancement to all applicable rolls and to any Stunts you may have gained from Knacks."
+	},
+	{
+		"Name":"Heroic: A Sentinel",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Guardian",
+		"Source":"Scion Hero",
+		"Description":"Choose a person or group of trivial targets to be your charge. When you guard your charge, you both gain +1 Defense so long as you stay in the same range band. You also gain +1 Enhancement to rolls to keep track of or defend your charge."
+	},
+	{
+		"Name":"Heroic: A Talisman",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Guardian",
+		"Source":"Scion Hero",
+		"Description":"Bless an object (usually belonging to someone you wish to protect, but not required) and make a Knack Skill roll. If any successes are achieved, it then grants the bearer 2 Enhancement to rolls made to defend or protect against a particular person, thing, or situation as defined at the time of blessing. If you are making a talisman for your charge, this happens automatically without needing to roll."
+	},
+	{
+		"Name":"Heroic: A Vigil",
+		"Type":"Knack",
+		"Page":"225",
+		"Calling":"Guardian",
+		"Source":"Scion Hero",
+		"Description":"When you stand guard over a person, place, or thing, you do not need to eat or sleep so long as your vigil persists. This benefit extends so long as the protected target remains within your sight. You may do other things — talk, interact, move around, etc. — but must devote most of your time to keeping your vigil. You may only keep vigil over one thing at a time."
+	},
+	{
+		"Name":"Heroic: A Warning",
+		"Type":"Knack",
+		"Page":"226",
+		"Calling":"Guardian",
+		"Source":"Scion Hero",
+		"Description":"You sense the presence of danger before it emerges. Spend Momentum and double the successes on any roll to detect ambushes or to discern whether a person means harm. If you are protecting your charge, you do not need to pay the cost."
+	},
+	{
+		"Name":"Immortal: By Your Side",
+		"Type":"Knack",
+		"Page":"226",
+		"Calling":"Guardian",
+		"Source":"Scion Hero",
+		"Description":"Spend a point of Momentum to move to be next to someone you are protecting in an instant, regardless of the distance between you. You receive an innate warning whenever this Knack would come into play. If you are protecting your charge, you do not need to pay the cost."
+	},
+	{
+		"Name":"Immortal: Eternal Guardian",
+		"Type":"Knack",
+		"Page":"226",
+		"Calling":"Guardian",
+		"Source":"Scion Hero",
+		"Description":"When you protect a person, place, or thing that can be measured with Scale (standing guard at the entrance of your pantheon's afterlife, keeping a watchful eye on a city all night), imbue a point of Legend, rather than spending, to invoke your legendary Title as a Feat of Scale."
+	},
+	{
+		"Name":"Immortal: Living Pillar",
+		"Type":"Knack",
+		"Page":"226",
+		"Calling":"Guardian",
+		"Source":"Scion Hero",
+		"Description":"When you protect someone else with your body, you are immune to environmental hazards: The flames of a burning building do not scorch you, a landslide does not crush you, water cannot drown you, and so on. As long as you keep your charge close (within arm's reach), they benefit from the same immunity, but still need to eat, sleep, etc., so it's best to leave a hazardous area as quickly as possible."
+	},
+	{
+		"Name":"Immortal: They Cannot Be Touched",
+		"Type":"Knack",
+		"Page":"226",
+		"Calling":"Guardian",
+		"Source":"Scion Hero",
+		"Description":"Spend a point of Momentum and designate one person to be immune to all source of damage until the end of the session. This only applies if the character is someone you have a Bond with, or is of a lower Tier. If a target does not need to be protected (such as your best friend, the Warrior-Calling Scion), this Knack does not apply. "
+    },
+	{
+		"Name":"Heroic: The Bare Minimum",
+		"Type":"Knack",
+		"Page":"226",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"You are always able to safely tend to someone's wounds even if you have no sanitary medical tools available. Even if all you have are twigs and dirt, you'll be able to perform surgery at no increased Difficulty and at no risk to your patient."
+	},
+	{
+		"Name":"Heroic: Combat Medic",
+		"Type":"Knack",
+		"Page":"226",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"When you tend to an ally's wounds in the heat of battle, once per turn remove any −1 Injury they may be suffering — including damage sustained to armor — without needing to roll. You may not make Mixed actions when utilizing this Knack. "
+	},
+	{
+		"Name":"Heroic: Damage Conversion",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"When you administer medical attention to a patient or yourself as an action, convert any Injuries one lower: Maimed becomes Injured, Injured becomes Bruised, and Bruised injuries heal completely."
+	},
+	{
+		"Name":"Heroic: Doctor's Kit",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"At the start of a combat scene, roll Knack Skill. Spend the resulting successes on the following Stunts whenever a bandmate or allied character in the same range band as you takes an Injury: \n*Ice Pack (1)* — Remove a −1 Injury, including those sustained by armor \n*Swift Bandaging (2)* — Remove a −1 Injury \n*Emergency Operation (4)* — Remove a −4 Injury until the end of the scene"
+	},
+	{
+		"Name":"Heroic: Immunization Booster",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"Designate up to your Knack Skill in targets to be under your care. While under your protection, they get +2 Enhancement to all rolls to resist disease and poison, and to recover from injuries. Storyguide characters you protect in this way are automatically protected — that is, the Storyguide does not need to make rolls when they would be affected by disease or poison."
+	},
+	{
+		"Name":"Heroic: Instant Diagnosis",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"When you spend time interacting with an ailing target, you diagnose what is wrong with him, as well as any other pertinent medical information. In the event that she is diagnosing a patient suffering from a supernatural disease, this may require a Knack Skill roll, which is opposed by whomever afflicted the victim."
+	},
+	{
+		"Name":"Heroic: Surgeon with the Hands of God",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"Halve the time you need to undertake any kind of medical procedure (such as surgery). You never face any increased Difficulty to treat a critically ill or injured patient."
+    },
+	{
+		"Name":"Immortal: Breath of Life",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"If you touch a target within three minutes of their death, you can spend a point of Legend and bring them back to life with all Injuries filled. Any longer than three minutes and the target cannot be revived."
+	},
+	{
+		"Name":"Immortal: Internal Refinery",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"When exposed to a poison or disease, make a Knack Skill roll. A success instantly cures yourself. By spending a point of Momentum, you then also generate one dose of a cure or antidote, which you can secrete and administer to another person."
+	},
+	{
+		"Name":"Immortal: Panacea",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"When you work to cure a disease or fight an illness on a large Scale (curing cancer, stopping a God-driven plague), imbue a point of Legend, rather than spending, to invoke your legendary Title as a Feat of Scale."
+	},
+	{
+		"Name":"Immortal: Reconstruction",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Healer",
+		"Source":"Scion Hero",
+		"Description":"Once per day, make a Knack Skill roll. If any successes are achieved, remove any one Condition a target may face that is not necessarily an illness or ailment. Examples include ending a character's blindness, restoring a limb with a perfect prosthetic, and ending paralysis or PTSD. You may cure additional ailments by spending 1 Momentum each. As an additional effect, which does not cost Momentum, at the beginning of the session you have the option to reassign your Attribute dots in any order as long as they remain within the same original categories. You cannot move Resistance dots into Power dots, for example."
+    },
+	{
+		"Name":"Heroic: Apex Predator",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"When a target of lower Tier who you have been pursuing attacks you or otherwise attempts to hunt you in return, increase the difficulty of all Stunts they apply against you by 1. If this target is your quarry, increase it by an additional +1."
+	},
+	{
+		"Name":"Heroic: Eyes in the Blinds",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"Spend Momentum to invest a fraction of your power into a small token (a coin, a figurine, dice, an arrowhead, etc.). Place this token anywhere in a Field you are aware of, and for as long as it remains in place you have the power to observe the goings-on in the Field as if you were present. This lasts for the duration of a day in-game time, or for a session of play, whichever is longer. You do not have to deliver the token yourself, and may send an ally or animal companion to deliver it instead. If the token is destroyed or otherwise removed from the Field, the effect ends. The Difficulty to notice the token is equal to your Hunter Calling dots."
+	},
+	{
+		"Name":"Heroic: Internal Compass",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"You always know your precise direction — whether that be navigating while on foot or driving a car, or working your way out of a petty God's labyrinthine prison. You do not ever have to roll to navigate somewhere, or to find your way out of being lost. If you are entrapped in a magical maze, make a Clash of Wills with 2 Enhancement."
+	},
+	{
+		"Name":"Heroic: Keen-Eyed Predator",
+		"Type":"Knack",
+		"Page":"227",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"When you enter a Field, you extend your senses to determine what might await you. Ask one question from the following list for free. You may roll your Knack Skill and spend one success per additional question. The Storyguide must answer these questions honestly: \n• What kinds of hazards (such as terrain) are present? \n• Where is the nearest exit? \n• Where is the safest way in? \n• How many hostile enemies are present? \n• Who (or what) is the biggest threat?"
+	},
+	{
+		"Name":"Heroic: Most Dangerous Prey",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"Choose an enemy to be your quarry. When you pursue your quarry, gain Enhancement 1 to all rolls made against the target (including attack rolls) until the end of the session or until you catch them, whichever comes first. You gain access to the following Stunts, which may be applied to any attack action made against your quarry: \n• Stalk (1s): After resolving your attack, spend a success to take an additional Move action. \n• Snare (any successes above Defense): You trap the target in place. They may not make Move, Rush, or Disengage actions. To end the effect, the target must make Athletics + Dexterity rolls vs. your Knack Skill until they succeed or until you choose to end it, whichever comes first."
+	},
+	{
+		"Name":"Heroic: Silence in the Woods",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"When pursuing a target, you make no noise at all, adding +2 Enhancement to avoid detection based on hearing/sound (including things that can perceive vibrations without specifically hearing) and to set up ambushes. This Enhancement applies before you roll. Recording equipment is also unable to pick up your sound."
+	},
+	{
+		"Name":"Heroic: Worrying Hound",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"While pursuing a target, you do not face any increase in difficulty to track down your target, even if they were to take flight, hide in a body of water, or attempt to disappear into the back alleys of a crowded city. You always have some idea of where your target has gone, and gain +1 Enhancement to keep up with him and to apply any Stunts you may have access to from Hunter Knacks. When you hunt your quarry, add another +1 Enhancement."
+    },
+	{
+		"Name":"Immortal: Always There",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"Anyone of a lower Tier cannot escape you. You always find them and can always track them down no matter how far they go."
+	},
+	{
+		"Name":"Immortal: Perfect Camouflage",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"You blend in seamlessly with your surroundings, granting +3 Enhancement to avoid notice by the person you are pursuing, which applies before you roll. Targets of a lower Tier simply cannot spot you. Gain access to the following Stunt: Vanish (successes equal to the target's Composure): After resolving an attack, you vanish from the target's line of sight. They may not target you with any action until the start of your next turn."
+	},
+	{
+		"Name":"Immortal: Relentless",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"When you pursue or hunt a target on a massive Scale or of great Size (chasing your target across dimensions, hunting a mountain-sized titanspawn), imbue a point of Legend, rather than spending, to invoke your legendary Title as a Feat of Scale."
+	},
+	{
+		"Name":"Immortal: Send the Pack",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Hunter",
+		"Source":"Scion Hero",
+		"Description":"Make a Knack Skill roll. On a success, designate a target that you can see with unaided sight. Friendly characters you designate up to your Legend can pursue them without ceasing and at no increased difficulty. "
+    },
+	{
+		"Name":"Heroic: Eye for an Eye",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"When you suffer an Injury, spend Momentum and inflict the same Injury on the target that attacked you. The target must have attacked you directly; you cannot reflect attacks that targeted someone else. If the target does not have the ability to take a similar Injury (having your arm bitten by a giant snake, for example), inflict an Injury of similar severity instead, such as a festering, envenomed bite mark. This also applies to Critical Hits inflicted."
+	},
+	{
+		"Name":"Heroic: Indisputable Analysis",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"You spend a moment observing the scene you wish to analyze and the player makes a Knack Skill roll. You then apply the successes on this roll as Enhancement to all rolls made to analyze and investigate the incident for the rest of the scene. These successes apply before you roll."
+	},
+	{
+		"Name":"Heroic: Lie Detector",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"Anyone of a Tier lower than you suffers +2 Complication to lie to you. If you are currently casing and they are somehow involved, they simply cannot lie to you at all. The Storyguide should also notify you when a lie has been told, though it does not automatically reveal the truth, and also reveals nebulous truth, such as “he has been convinced this is true” — which should always be a means for characters to pursue the person who manipulated the target in the first place."
+	},
+	{
+		"Name":"Heroic: Objection!",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"You mark a target, and anyone targeting them with an action gains +1 Enhancement to all rolls. This bonus applies before you roll. Gain access to the following Stunt, which you may apply to any of your attack actions: \n• Terrify (any successes above Defense): After applying this Stunt, the target must make a Clash of Wills roll. On a failure, they must flee the fight or suffer +2 Difficulty to attack rolls until the fight is over."
+	},
+	{
+		"Name":"Heroic: On the Case",
+		"Type":"Knack",
+		"Page":"228",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"When you investigate an event or scene, you are casing. While casing, gain +1 Enhancement to rolls to discern motives and search for clues, which applies before you roll. Casing lasts until the end of the session."
+	},
+	{
+		"Name":"Heroic: Quick Study",
+		"Type":"Knack",
+		"Page":"229",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"You sweep your eyes over a crime scene and collects clue almost immediately. Halve the time you would need to perform an investigation. Quarter it if you are also casing."
+	},
+	{
+		"Name":"Heroic: The Truth Arises",
+		"Type":"Knack",
+		"Page":"229",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"When you engage in conversation (or other such interaction) with an alleged perpetrator of a crime, make a Knack Skill roll. On a success, if the target is guilty, he will leak a piece of information that connects him to his crime. Before expending effort on using this Knack, let the Storyguide know, and she should tell you if the target does not have any valuable information to leak — which in itself can be helpful in an investigation."
+    },
+	{
+		"Name":"Immortal: Bound by Oath",
+		"Type":"Knack",
+		"Page":"229",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"When someone swears an oath to you to perform a task of your choosing, you bind it with your choice of swearing ceremony. As long as they work towards the sworn oath, they gain +1 Enhancement to all rolls until the task is complete. This bonus applies before the roll. If the target breaks your oath, the next roll they would make botches automatically."
+	},
+	{
+		"Name":"Immortal: I Am the Law",
+		"Type":"Knack",
+		"Page":"229",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"When you reshape laws or challenge the structure of society on a wide Scale (rewriting a country's constitution, smashing the patriarchy), imbue a point of Legend, rather than spending, to invoke your legendary Title as a Feat of Scale."
+	},
+	{
+		"Name":"Immortal: The Pain of Dishonesty",
+		"Type":"Knack",
+		"Page":"229",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"Spend Momentum and anyone who lies directly to you suffers 1 Health damage or a −1 Injury Condition of your choosing. You choose whether or not to inflict the damage, automatically alerting you of the lie (though it does not automatically reveal the truth). You also know the severity of the lie, and therefore can choose not to harm someone who is lying to preserve someone's feelings as opposed to lying to obstruct a criminal investigation."
+	},
+	{
+		"Name":"Immortal: Terror of the Guilty",
+		"Type":"Knack",
+		"Page":"229",
+		"Calling":"Judge",
+		"Source":"Scion Hero",
+		"Description":"Anyone guilty of a wrongdoing of your choosing who is of lower Tier than you cannot bear to be in your presence and will flee in panic and terror or break down weeping and confessing. To apply this to anyone of the same Tier or higher, spend Momentum and win a Clash of Wills. "
+    },
+	{
+		"Name":"Heroic: Captain of Industry",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"When you take charge of a group, roll Knack Skill. With two successes, you need only spend 2 Momentum to add an interval to a complex action. With five successes, you need only spend 1 Momentum."
+	},
+	{
+		"Name":"Heroic: Cloak of Dread",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"You project an aura of menace that terrifies and intimidates anyone who would dare cross you. Spend Momentum and double your successes on any Knack Skill rolls to intimidate targets. Enemies of a lesser Tier and extras simply will not attack you."
+	},
+	{
+		"Name":"Heroic: Good Listener",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"When you make casual conversation with an SGC, that character will reveal information or an important detail that the Leader is looking for, if they know it. Before using this ability, tell the Storyguide what you're seeking; if the SGC doesn't know it, you immediately become aware that the character isn't relevant to your quest. Even the most recalcitrant of characters eventually opens up and reveals a clue — this power requires no roll."
+	},
+	{
+		"Name":"Heroic: Grand Entrance",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"When you make a first impression, roll your Knack Skill. On a success, the target remembers you favorably, granting you +1 Enhancement to all Social rolls made towards them until the end of the session."
+	},
+	{
+		"Name":"Heroic: Inspirational Aura",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"When you take charge of a group, roll Knack Skill. For every two successes rolled, reduce the Difficulty of all actions taken by the group you command by 1. You can inspire a number of people equal to her Leadership + Leader Calling, or can spend a point of Momentum to apply this to a much larger group, multiplying that number by 10 for each Momentum spent. The decrease in difficulty does not apply to you, though while you are inspiring others, you gain 2 Enhancement to apply to social rolls involving leadership, and any Stunts you may have gained from Knacks."
+	},
+	{
+		"Name":"Heroic: Lighthouse of Society",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"In a tense, heated, or chaotic situation, you stand as a beacon of certain leadership. Your presence is a bulwark against fear and panic. As long as a crowd has not been frightened directly by magical means, you can get a group of people to act calm and do as you ask (such as evacuating a dangerous area) in an orderly fashion without needing to roll. A supernatural situation requires a Clash of Wills. For example, if an enemy Scion of Eris sows panic into a crowd of mortals so they'll bolt and trample each other, a roll would be made against her. If Poseidon creates a tidal wave that happens to scare people because natural disasters are terrifying, a roll would not be made against him."
+	},
+	{
+		"Name":"Heroic: Perfect Poise",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"You cannot be shaken by panic or fear unless it is from another supernatural source — in which case, you gain 2 Enhancement to resist it (such as making Clash of Wills rolls) that applies before you roll. You also gain 1 Enhancement to all Social rolls involving grace, poise, or composure, and to keep a “poker face.” This also applies before you roll."
+    },
+	{
+		"Name":"Immortal: Fearless Presence",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"As long as they can see you, your followers of lesser Tier are fearless and do not panic or flee. They will walk into the Underworld or plunge into a Titanic monster's mouth or face down a wrathful storm brewed up by a petulant god so long as you lead them."
+	},
+	{
+		"Name":"Immortal: Invulnerable Master",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"While leading followers loyal to you (Storyguide characters, not bandmates), you can spend Momentum and shrug off a −1 Bruised injury or a −2 Injured injury when they're suffered."
+	},
+	{
+		"Name":"Immortal: Masterful Efficiency",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"When you lead people in a task, make a Knack Skill roll. They increase in Scale by 1 for every success achieved, up to half your Legend rating, for one action (which may be part of an extended task, though not combat). A team of five people can build a skyscraper, or a small band of warriors can hold a chokepoint against an entire army, etc. You may spend Momentum for the task to increase Scale one for one above the number of successes achieved, again to a maximum of half your Legend rating."
+	},
+	{
+		"Name":"Immortal: Not Today, Friends",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Leader",
+		"Source":"Scion Hero",
+		"Description":"When you command others or stir the hearts of many on a huge Scale (commanding an entire army, calling a whole city to your aid), imbue a point of Legend, rather than spending, to invoke your Legendary Title as a Feat of Scale"
+    },
+	{
+		"Name":"Heroic: Beyond Memory",
+		"Type":"Knack",
+		"Page":"230",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"You bend the boundaries of cognition, fading from memory after an interaction. Anyone trying to describe you or recall the details of your interaction must make an Occult + Composure roll at Difficulty 2 to remember anything at all, with a 1-point Complication. If they fail to meet this Complication, your identity is safe, though the details of their interaction are not. If this is magically contested, make a Clash of Wills. You may spend Momentum and double successes on any Liminal Skill rolls to avoid passive detection, notice, or stealth otherwise; this does not work against active searching"
+	},
+	{
+		"Name":"Heroic: Complete Privacy",
+		"Type":"Knack",
+		"Page":"231",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"By reinforcing the importance of your personal boundaries, any interactions you take cannot be listened in on, your lips cannot be read, your phone can't be tapped, etc. by use of mundane means. Add +2 difficulty to attempts to tail you. This protects only against covert attempts to invade your privacy and offers no protection against airport security going through your luggage or rivals breaking into your apartment."
+	},
+	{
+		"Name":"Heroic: Experienced Traveler",
+		"Type":"Knack",
+		"Page":"231",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"When you travel to a new place, no matter how remote, you quickly pick up the social mores and behaviors, along with enough of the language to get by. Add +1 Enhancement to any applicable rolls to blend into the culture, if the Storyguide feels a need to call for a roll at all. This bonus applies before you roll. Additionally, when you attend a social ritual (such as a wedding or a funeral or a birthday party) you always know exactly the right social mores to follow, and how to appropriately dress. Even if you were not invited, you will not read as out of place."
+	},
+	{
+		"Name":"Heroic: Flatlander",
+		"Type":"Knack",
+		"Page":"231",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"When you make a close combat, thrown, or ranged attack, you gain access and 1 Enhancement to apply any of the following Stunts to your action, in addition to the default set: \n• Glimpse the Other Side (any successes above Defense): Make a Clash of Wills. If the target fails, they are removed from reality (leaving play entirely) until the start of their next turn. They roll initiative as normal and reappear where they were standing on their action. An opponent removed from reality in this way cannot be targeted by any actions until they reappear. \n• Stutter Time (any successes above Defense): You force the target of your attack to suffer a penalty to their Initiative equal to the successes you spend on this Stunt. This pushes a fast opponent further down the initiative roster. If you are targeting an opponent who has already gone, they take this penalty at the start of the next turn. \n• Bend Space (any successes above Defense): Reduce the target's Range by 1 for each success spent on this Stunt, to a minimum of Close, which lasts until the end of the target's next action."
+	},
+	{
+		"Name":"Heroic: Neither the Minute nor the Hour",
+		"Type":"Knack",
+		"Page":"231",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"You make a prediction about the details of your target's inevitable death (which does not have to be true) and make an opposed Knack Skill roll. If successful, the target suffers a +1 Difficulty to all actions for the rest of the scene."
+	},
+	{
+		"Name":"Heroic: Unerring Delivery",
+		"Type":"Knack",
+		"Page":"231",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"Send a message via another person — a stranger you choose on the street, a spirit or ghost of your pantheon, etc. — to someone in an instant, which can be done even if you are not present in the World, or somewhere else where a simple text or email might not reach."
+	},
+	{
+		"Name":"Heroic: Unobtrusive Visitor",
+		"Type":"Knack",
+		"Page":"231",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"When you would observe or infiltrate a location where you do not belong, spend a Momentum and blur the line between what is expected and unexpected. You take on the aspect of someone unassuming and invisible: a janitor, gardener, housekeeper, etc. So long as you collect information or remain an observer and do not take hostile action, anyone in the same Field as you overlooks your presence. This lasts until you take violent action, or until you leave the Field, whichever comes first."
+    },
+	{
+		"Name":"ImmortalEnforcing the Boundary: ",
+		"Type":"Knack",
+		"Page":"231",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"Make a Knack Skill roll — on a success, create a barrier of force that protects you and all allies within short range of you. It moves with you, but you may not take the Rush or Disengage actions. The force field lasts until the end of a fight scene, until you are Taken Out, or until you choose to end the effect — whichever comes first. While enforcing this boundary, characters under its protection may not be targeted by attacks by weapons or abilities with the Firearms or Arcing tags. It adds your Legend in Enhancement to any rolls you make to resist the Rush action. This applies before you roll."
+	},
+	{
+		"Name":"ImmortalThe Long Road to Anywhere: ",
+		"Type":"Knack",
+		"Page":"231",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"You make an extended journey without stopping but must rest upon arrival. When you arrive, you can ask hospitality of anyone of a lower Tier than you, and if they refuse you have the option to make the target suffer +2 Difficulty to all actions until you choose to remove the penalty."
+	},
+	{
+		"Name":"ImmortalPierce the Veil: ",
+		"Type":"Knack",
+		"Page":"231",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"When you cross boundaries on an epic Scale (descending into the afterlife on foot, driving your way across the globe), imbue a point of Legend, rather than spending, to invoke your Legendary Title as a Feat of Scale."
+	},
+	{
+		"Name":"ImmortalStep Sideways: ",
+		"Type":"Knack",
+		"Page":"231",
+		"Calling":"Liminal",
+		"Source":"Scion Hero",
+		"Description":"When you take a Move action, cross the distance instantly. This movement ignores hazardous and difficult terrain and crosses distance where there may not be a safe place to walk — such as across a chasm. So long as you can see your destination and it is within a distance you can Move, you appear there unharmed. This may only be used to augment the reflexive Move action, and does not apply to Rush or Disengage. "
+    },
+	{
+		"Name":"Heroic: Fluid Appeal",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"When interacting with someone, gain knowledge of whatever floats their boat. At any subsequent interaction, you can shift your features to be more appealing, adding +2 Enhancement to any persuasive social action including but not limited to seduction. This bonus applies before the roll is made. Note that this does not conceal your identity in any way."
+	},
+	{
+		"Name":"Heroic: I am a Fire",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"You stoke the affection one person has towards another — including yourself — which impels them towards a relationship. If it is between two Storyguide characters, work with the Storyguide to determine how their suddenly passionate relationship takes shape. If the target is one of your bandmates, this Knack does not work unless you obtain permission from the character's player. If the target is yourself, you gain +1 Enhancement to all Social rolls involving your partner of choice until the end of the session."
+	},
+	{
+		"Name":"Heroic: Lover's Intuition",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"When touching another character, which may be as brief as a handshake, you gain an understanding of your target's romantic life. Ask one question from the following list for free. You may roll your Knack Skill and spend one success per additional question. \n• Who or what does the character love? \n• Who is the character romantically involved with? \n• Who is the character close to? \n• Who would the character like to be romantically \n• involved with? \n• This may be used on your bandmates with consent from the player."
+	},
+	{
+		"Name":"Heroic: On Your Side",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"When you make a teamwork action with a person with whom you have a devoted, intimate, or romantic relationship, add your Lover dots in Enhancement to spend on Stunts including any you may have gained from Knacks."
+	},
+	{
+		"Name":"Heroic: Not a Fighter",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"When you are engaged in a fight, as long as you do not make attacks, enemies will not target you directly with their attacks. Additionally, gain +1 Enhancement to disengage and withdrawal rolls. You must also have a partner or Followers present for this effect to apply."
+	},
+	{
+		"Name":"Heroic: Perfect Partner",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"You know how to work perfectly in sync with someone, down to the timed beats of their hearts. Double the usual benefit you would provide from any teamwork rolls."
+	},
+	{
+		"Name":"Heroic: Soothing Presence",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"When you enter an initial social encounter, reduce Attitude by 1. For any other interaction in which you attempt to get someone else to relax, calm down, or be welcoming, you have 1 Enhancement to all applicable rolls and to apply to any Stunts you may have gained from Knacks."
+    },
+	{
+		"Name":"Immortal: Center of Attention",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"You're where the people want to be. You are a centrifuge of social attention, automatically pulling anyone of lesser Tier than you into your social wake. If you are at a party and need to meet someone of political or social importance, they are there. If you need the attention of supernaturally powerful individuals, spend Momentum instead. At Storyguide discretion, you may need to make a Knack Skill roll to attract the attention of the Gods themselves — and this may not always work out the way you'd like it to."
+	},
+	{
+		"Name":"Immortal: For You, I Will",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"Regain 1 point of spent Legend when you perform an impressive feat that positively impacts a character whom you love (which expressly includes the platonic bond of close friendship) — this can be a Storyguide character or a bandmate, but the feat must be suitably impressive depending on the target. What impresses an ordinary mortal is not the same as what impresses a Demigod."
+	},
+	{
+		"Name":"Immortal: Hearts Aflame",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"When you inspire passion or promote relationships on an epic Scale (inspiring an audience of millions, changing a culture's attitudes on consent), imbue a point of Legend, rather than spending, to invoke your Legendary Title as a Feat of Scale."
+	},
+	{
+		"Name":"Immortal: Lover's Oath",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Lover",
+		"Source":"Scion Hero",
+		"Description":"You and a consenting partner enter into an agreement to bind yourselves together forever as lovers. Both parties spend a point of Legend (if applicable). From that moment on, it takes only a moment's concentration to know the location and general state (emotional wellbeing, health, etc.) of your partner. You have the option to accept Injuries for the other, and can imbue points of Legend for each other's abilities (assuming your partner has a pool of Legend to pull from). This is a pact that binds you together by Fate, and while it does not necessarily have to be made out of romantic love, ill fortune befalls those who mistreat their partner whom they have sworn an oath to before the Gods. "
+    },
+	{
+		"Name":"Heroic: Blockade of Reason",
+		"Type":"Knack",
+		"Page":"232",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"You readily deflate the arguments of hucksters and con men with a sharp application of reason, or blunt denial (usually calling out the person for what they are trying to do). Targets of lower Tier cannot trick, coerce, swindle, or con you, and any supernatural attempts to do so trigger a Clash of Wills. You add 2 Enhancement to the Clash of Wills roll. "
+	},
+	{
+		"Name":"Heroic: Master of the World",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"While inside a Field, you may define up to three points of Enhancements or Complications (or a combination of each) that are readily apparent to your perceptions (which may be enhanced by other abilities) but not obvious to other observers. They must conform to the Features of the Field, however — it makes sense for a shotgun to be behind the bar, but not a rocket launcher. The hardwood floors of a burning building could be expected to be weak, but the flames can't be cold. Only three total Enhancements or Complications can be applied to a Field at a time, regardless of how many Scions possess this ability."
+	},
+	{
+		"Name":"Heroic: Palace of Memory",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"When you recall past events that you have experienced or studied, you are able to recall the details flawlessly, never missing out on any clues or dropping the ball on any details you might remember. This allows the player to bypass the need to roll to remember salient details or facts, and also to declare a narrative advantage she may have remembered without needing to invoke her Path. If you missed a Procedural Clue in a prior scene, you may attempt to rediscover it."
+	},
+	{
+		"Name":"Heroic: Presence of Magic",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"You always know when you are near an object or place of true magical or sacred power. How this manifests is up to you. Ask the Storyguide if an object is magical or sacred, and she must tell you honestly “yes” or “no.” This bypasses the need to make any kind of Occult roll to identify a place or object of magical or sacred power."
+	},
+	{
+		"Name":"Heroic: Office Hours",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"When someone approaches you with a problem that you can solve, they gain +1 Enhancement to resolve it themselves if you work them through a solution. If you can't solve it, you gain the same bonus to all rolls to solve it on your own. These bonuses apply before rolls are made. Spend Momentum to impel a Storyguide Character to come to you with a problem in need of solving."
+	},
+	{
+		"Name":"Heroic: Omniglot Translation",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"When you converse in or read a foreign language, your communication is flawless, without a trace of an accent. You can turn out translations in your native language in a matter of minutes without needing to roll. If you are translating mystical runes or the handwriting of Gods, you still do so swiftly, but must make a Knack Skill roll."
+	},
+	{
+		"Name":"Heroic: Speed Reading",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"When you read materials for your research, you do so at lightning speed, devouring thick tomes in a matter of minutes and flipping through electronic documents in the blink of an eye. Halve the time you need to do any kind of academic research. Once a scene you may establish that you've read up on a subject and gain 1 Enhancement to the next applicable roll. This bonus applies before the roll."
+    },
+	{
+		"Name":"Immortal: Cipher",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"You are never stumped by any codes or encryptions set in place by a character of a lower Tier. When you converse in or read a foreign language, your communication is flawless, without a trace of an accent. You can turn out translations in your native language in a matter of minutes without needing to roll. If you are translating mystical runes or the handwriting of gods, you still do so swiftly, but must make a Knack Skill roll. When you create your own encryption, it also cannot be resolved by anyone of a lower Tier. You add your half your Legend, round up, in Enhancement to rolls to prevent decryption by your peers and those of higher Tiers. This bonus applies before you roll."
+	},
+	{
+		"Name":"Immortal: Eternal Genius",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"When you unravel a mystery or tackle a complex, scholarly problem on a massive Scale (untangling the secrets of quantum physics, solving a trickster God's cipher), imbue a point of Legend, rather than spending, to invoke your Legendary Title as a Feat of Scale."
+	},
+	{
+		"Name":"Immortal: Immortal Mastermind",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"When you make a plan of action and direct others to follow, it grants them 1 Enhancement to all actions. Anyone who doesn't follow your plan gains +1 Difficulty to all actions. Bandmates are not under any obligation to follow your every word, but do gain the benefit if they opt to participate. When dealing with an enemy, you are free to create a plan in order to bait your opposition into suffering the Difficulty — just as planned."
+	},
+	{
+		"Name":"Immortal: Overworld Knowledge",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Sage",
+		"Source":"Scion Hero",
+		"Description":"Once per scene, make a Knack Skill roll. For each success, ask a question of the Storyguide relevant to the events transpiring — something you would know or have studied — and receive a truthful and applicable answer. For example, “What stratagem is the enemy general using?” or “What are Kane Taoka's true motives?” If you have remaining unasked questions, spend Momentum to roll over the remaining questions into the following scene. "
+    },
+	{
+		"Name":"Heroic: Blather and Skite",
+		"Type":"Knack",
+		"Page":"233",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"When you spout nonsense at your target, they must spend a moment trying to figure out what the heck you just said — buying you or someone else more time to accomplish any kind of underhanded task: sneaking into a place, slipping past a posted sentry, lying your way through security, and so on. This works automatically on any character of same or lower Tier, but requires a Knack Skill roll to work on someone of higher Tier. For each success rolled, you buy five minutes of in-game time or one turn of combat (whichever is more immediately applicable) before enemies realize you've infiltrated and go on high alert. If you use this on one of your bandmates, you only succeed with the consent of the other character's player."
+	},
+	{
+		"Name":"Heroic: In Sheep's Clothing",
+		"Type":"Knack",
+		"Page":"234",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"When you disguise yourself, you do without needing to roll. You have the option to change your hair, skin, and eye color, apparent gender, and height within a few inches, but cannot assume the exact appearance of someone else. The disguise cannot be seen through, though your mannerisms and turn of phrase may give you away. At Storyguide discretion, Knack Skill rolls may be required to blend in."
+	},
+	{
+		"Name":"Heroic: Light Fingered",
+		"Type":"Knack",
+		"Page":"234",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"When you steal an object or pickpocket someone, you do so without needing to roll, so long as the object is something you can conceal in your hands. If you use this ability to lift something from a member of your band, you must do so with the consent of that character's player. You cannot steal an item that is currently in use. Stealing a weapon from an enemy would first require the Disarm or Seize stunt."
+	},
+	{
+		"Name":"Heroic: Rumor Miller",
+		"Type":"Knack",
+		"Page":"234",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"Your lies catch on like wildfire, and you need only make the smallest post on social media to get a wild rumor circulating. Make a Knack Skill roll — any successes delivers the rumor about the target to those who should hear it — his boss, his husband, his best friends, etc."
+	},
+	{
+		"Name":"Heroic: Smoke and Mirrors",
+		"Type":"Knack",
+		"Page":"234",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"Once per scene, when you would be Taken Out, you instead spend Momentum, negate the damage that would have taken you out and move one range band away from your attacker — but leave behind a brief afterimage of your outline, which crumbles into dust seconds later."
+	},
+	{
+		"Name":"Heroic: Takes One to Know One",
+		"Type":"Knack",
+		"Page":"234",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"When you are the target of a scam or a lie, you recognize that a deception is taking place. You do not know what the truth is, but you instinctively understand that you are in the company of liars and cheaters. Whether or not you call out the cheat on his dishonest actions is up to you."
+	},
+	{
+		"Name":"Heroic: Wasn't Me",
+		"Type":"Knack",
+		"Page":"234",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"When you do something with legal or social consequences, you delay the consequence by transferring blame to someone else of the same or lower Tier. This delay lasts until the end of the session by default, but may be delayed further by making a Knack Skill roll, and spending 1 success per scene of delay. To push blame onto a member of your band, you must do so with the consent of that character's player. Once the delay ends, anyone of higher Tier than you who had been duped by this Knack realizes they've been tricked, and will likely seek revenge. "
+    },
+	{
+		"Name":"Immortal: Doppelganger",
+		"Type":"Knack",
+		"Page":"235",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"Make a Knack Skill roll and with any successes, make an exact copy of yourself. The copy has all your Attributes and Skills, Knacks and Boons, and is controlled by you. This doppelganger may be sent to perform any social or investigative task independently of you, though you are aware of the outcome (and the player is free to roleplay her character in two places at once). It cannot benefit from teamwork actions and dissipates into dust if attacked. Otherwise, the copy lasts for a number of days equal to your Trickster Calling."
+	},
+	{
+		"Name":"Immortal: One Man's Trash",
+		"Type":"Knack",
+		"Page":"235",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"Spend Momentum and make an ordinary piece of junk seem extremely rare and valuable. This item will sell or trade as if it had real value. Anyone of lower Tier buys this deception instantly, squabbling over themselves for who will get to buy this unique thing. Targets of the same Tier or higher must make an Empathy roll to see through this lie, but face +Legend Difficulty to convince anyone else that it is not just trash."
+	},
+	{
+		"Name":"Immortal: Surprise!",
+		"Type":"Knack",
+		"Page":"235",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"Voluntarily be Taken Out (for all intents and purposes, you appear to be dead or unconscious) and come back later, unharmed, at any point in time during the session to make a surprise attack or otherwise set up an ambush with +4 Enhancement, which applies before you roll. If someone has seen you pull this trick before, they resist the ambush as normal (you do not gain the bonus) and instead gain +4 Enhancement on combat rolls against you for the first round if they succeed. If it would better suit you, you may return dramatically in the middle of a social scene instead, adding the same Enhancement to the next most appropriate Social roll."
+	},
+	{
+		"Name":"Immortal: Woven from Lies",
+		"Type":"Knack",
+		"Page":"235",
+		"Calling":"Trickster",
+		"Source":"Scion Hero",
+		"Description":"When you spin a story or craft an elaborate deception on an epic Scale (spreading a vicious rumor across the world via social media, convincing a whole society of people that you're someone you're not), imbue a point of Legend, rather than spending, to invoke your Legendary Title as a Feat of Scale."
+    },
+	{
+		"Name":"Heroic: The Biggest Threat",
+		"Type":"Knack",
+		"Page":"235",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"When you make a show of force or intimidate your enemy, make a Knack Skill roll. On a success, the target must focus its efforts on dealing with you first, suffering +2 Difficulty to attack anyone else."
+	},
+	{
+		"Name":"Heroic: Close the Gap",
+		"Type":"Knack",
+		"Page":"235",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"The first time you make a combat movement roll, make a Knack Skill roll instead. Spend successes on the following Stunts for the rest of the fight: \n• Charge! (1s): You make the Rush action without needing to make an opposed roll. This is negation is limited by the rules for applying Knack abilities — i.e. you may not apply it to anyone two Tiers higher than you. \n• Inescapable (1s): Opponents of a lower Tier than you who are engaged with you in combat may not make the Disengage action. You must spend a success on this Stunt each time a different opponent would try to escape you, but only need to apply it once per target. \n• Sure-footed (1s): Apply this Stunt to a combat movement action; Difficult terrain does not apply to this movement."
+	},
+	{
+		"Name":"Heroic: Death by Teacup",
+		"Type":"Knack",
+		"Page":"235",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"When you use an improvised weapon, it becomes as deadly as anything designed for the job. It takes on the profile of any existing weapon of a similar size or shape: A teacup becomes brass knuckles or a punch dagger; a shard of glass becomes a knife; a thrown shoe becomes a throwing hatchet, etc. It must appropriately fit something of a similar size and shape, as described in the examples listed. This benefit lasts until you no longer hold the object, or until it breaks, or until you are no longer using the object with any Warrior Skill — whichever comes first. In the case of thrown objects, the benefit extends until impact. A hurled shoe strikes with the force of a tomahawk and then becomes ordinary footwear when it hits the ground. This is compatible with Master of Weapons, though still adheres to the set limitations."
+	},
+	{
+		"Name":"Heroic: Enhanced Impact",
+		"Type":"Knack",
+		"Page":"235",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"Whenever you successfully deal Injury with your Knack Skill, you also knock the target back one range band. This does not do any extra damage, but can put someone in a tight spot."
+	},
+	{
+		"Name":"Heroic: Master of Weapons",
+		"Type":"Knack",
+		"Page":"235",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"At the beginning of the session, choose one of your weapons to be your favored weapon. When you use your favored weapon, add a number of additional Tag points to it up to your Warrior Calling. These do not have to fit the weapon's existing profile: A sword can be made to strike at Far range, for example. Spend Momentum to switch the benefit to another weapon. Negative cost Tags cannot be purchased with this Knack."
+	},
+	{
+		"Name":"Heroic: Trick Shot",
+		"Type":"Knack",
+		"Page":"235",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"When showing off with a ranged weapon, convert any additional Difficulty imposed because of your showmanship into Enhancement instead which may be spent on any Ranged Attack Stunt besides Inflict Damage. This applies before your roll."
+	},
+	{
+		"Name":"Heroic: Tempered",
+		"Type":"Knack",
+		"Page":"236",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"When you wear no armor, you are considered to have the Armored (Soft) Tag. This benefit stacks with the increased difficulty of the inflict damage Stunt granted by any other armor you wear when you fight lesser foes (minor characters, or anyone a Tier lower than you)."
+    },
+	{
+		"Name":"Immortal: Army of One",
+		"Type":"Knack",
+		"Page":"236",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"When you fight outnumbered, you do not take any penalties or increased difficulty that being outnumbered would cause. You gain half your Legend, round up as an Enhancement to all attacks so long as there are more opponents present than you and your band. When fighting a greater force as a Feat of Scale, invoke your Legendary Title and imbue Legend instead of spending it."
+	},
+	{
+		"Name":"Immortal: Hurl to the Moon",
+		"Type":"Knack",
+		"Page":"236",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"Imbue a point of Legend instead of spending Legend to lift and throw objects with a Size rating higher than yours when performing a brute force Feat of Scale. Objects thrown this way can also be hurled to medium range. Outside of throwing a huge object, this Knack allows you to make all Thrown attacks at long range, regardless of the range tag on any weapon. You roll the attack as a normal for Thrown."
+	},
+	{
+		"Name":"Immortal: Perfect Defense",
+		"Type":"Knack",
+		"Page":"236",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"Once per fight, declare that an attack made against you by an enemy of the same Tier or lower does not affect you in any way. To do this a second time, spend Momentum. This may not be used more than twice a fight."
+	},
+	{
+		"Name":"Immortal: They're Everywhere",
+		"Type":"Knack",
+		"Page":"236",
+		"Calling":"Warrior",
+		"Source":"Scion Hero",
+		"Description":"The Field you are fighting in becomes divine territory. When an enemy enters divine territory, you have the option to make one attack against them, regardless of which range band they have entered and which may not be boosted by any Knacks that allow you to make extra attacks. You use this ability even if you have already taken your action this round and may do so no matter how many enemies enter your divine territory, but you may only make one attack per enemy. "
+    },
+	{
+		"Name":"Artistry",
+		"Type":"Purview",
+		"Page":"239",
+		"Source":"Scion Hero",
+        "Description":"The Artistry Purview belongs to Gods renowned for their mastery of poetry, dance, storytelling, and other forms of art, as well as those who fill the hearts and minds of mortal artists with inspiration",
+        "InnatePower":"You can express yourself through an artistic performance to communicate with those who experience it as though you were speaking to them, even if they don't share a language. This can also bypass Complications that would apply to rolls made through ordinary conversation, like trying to avoid being overheard, but not to the specific art form you use. Only the intended recipient of the message (which can be “everyone”) can perceive it. "
+    }
+]
